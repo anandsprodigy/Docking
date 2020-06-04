@@ -6,6 +6,8 @@ docker info
 
 docker image pull <image_name> 
 
+docker pull httpd:2.4.43-alpine
+
 docker pull <image_name>
 
 docker image inspect <image_name>
@@ -13,4 +15,38 @@ docker image inspect <image_name>
 docker images
 
 docker rmi <image_name>
+
+
+#Container
+
+docker image pull ubuntu
+
+docker container run -it --name <name_for_container> <image_name> /bin/bash
+
+#here -it is interactive mode, --name is container and /bin/bash is command to run within container
+
+E.g: 2
+
+docker image pull nginx 
+
+docker container run -d -p 8085:80 --name webserver nginx
+
+#-d is run container in detached mode command prompt will be provided to the user , -p is port 8085 {HOST} : 80 {CONTAINER}
+
+
+docker container ls 
+
+docker container ls -a
+
+docker container start ubuntu1
+
+docker container stop ubuntu1
+
+docker container inspect ubuntu1
+
+
+
+
+
+
 
