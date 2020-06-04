@@ -1,0 +1,16 @@
+#Docker version
+
+docker version
+
+docker info
+
+docker image pull <image_name> 
+
+docker pull <image_name>
+
+docker image inspect <image_name>
+
+docker images
+
+docker rmi <image_name>
+
