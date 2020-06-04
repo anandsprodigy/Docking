@@ -45,7 +45,29 @@ docker container stop ubuntu1
 docker container inspect ubuntu1
 
 
+docker top <container_name>  #shows processes running inside the container
 
+docker port <container_name>  #shows ports mapped to the container
+
+docker rm -f <container_name> #remove/delete/terminate container, -f is forcefully remove container if it is in running state.
+
+docker container rm -f <conatiner_name>
+
+
+
+docker ps #shows running containers
+
+
+
+
+
+docker container top <container_name>
+
+docker container inspect <container_name>
+
+docker container stats <container_name>
+
+docker container port <container_name>
 
 
 
