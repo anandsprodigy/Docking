@@ -2,6 +2,12 @@
 
 sudo apt-get update
 
+#The ‘update‘ command is used to resynchronize the package index files from the their sources specified in /etc/apt/sources.list file. The update command fetched the packages from their locations and update the packages to newer version.
+
+#upgarde all packages
+sudo apt-get upgrade
+
+
 #ASCII character names art
 
 sudo apt install figlet
@@ -47,5 +53,59 @@ Linux LAPTOP-Hostname 4.4.0-18362-Microsoft #836-Microsoft Mon May 05 16:04:00 P
 
 
 
+#history
+
+history
+
+#running item from history
+
+!23
+
+#running last item/command from history
+
+!!
+
+CHMOD
+
+Read (r)=4
+Write(w)=2
+Execute(x)=1
 
 
+#The Debian based “apt” command stands for (Advanced Package Tool). 
+Apt is an advanced package manager for Debian based system (Ubuntu, Kubuntu, etc.), that automatically and
+intelligently search, install, update and resolves dependency of packages on Gnu/Linux system from command line.
+
+
+#The “tar” command is a Tape Archive is useful in creation of archive, in a number of file format and their extraction.
+
+root@tecmint:~# tar -zxvf abc.tar.gz (Remember 'z' for .tar.gz)
+root@tecmint:~# tar -jxvf abc.tar.bz2 (Remember 'j' for .tar.bz2)
+root@tecmint:~# tar -cvf archieve.tar.gz(.bz2) /path/to/folder/abc
+Note: A ‘tar.gz‘ means gzipped. ‘tar.bz2‘ is compressed with bzip which uses a better but slower compression method.
+
+#date
+
+#date --set='14 may 2013 13:57'
+
+#get pakages available 
+#apt-cache pkgnames
+
+#search packages
+#apt-cache search vsftpd
+
+#show package information
+apt-cache show netcat
+
+#show package dependencies
+apt-cache showpkg figlet
+
+
+#install specific package
+ sudo apt-get install vsftpd=2.3.5-3ubuntu1
+ 
+#remove package
+sudo apt-get remove figlet
+
+#completely remove package
+sudo apt-get purge vsftpd
