@@ -164,3 +164,5 @@ Running command with the time limit
 #sudo apt autoremove
 remove files which are remained in system and not been used.
 
+#create file name using timestamp
+touch file_name_`date +"%m_%d_%Y_T_%H_%M_%S_%Z"`
