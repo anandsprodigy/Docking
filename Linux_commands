@@ -109,3 +109,49 @@ sudo apt-get remove figlet
 
 #completely remove package
 sudo apt-get purge vsftpd
+
+
+#finding files
+find *.txt
+
+find 
+will list all files present in folder
+
+anand@L:~$ find
+.
+./.bash_history
+./.bash_logout
+./.bashrc
+./.config
+./.config/procps
+./.landscape
+./.landscape/sysinfo.log
+./.motd_shown
+./.profile
+./.sudo_as_admin_successful
+./simple.txt
+
+
+find -iname *.SH (case insensitive)
+
+find -name simple.txt
+
+grep anand /etc/passwd
+
+service apache2 start
+
+service apache2 restart
+
+service apache2 stop
+
+df
+
+Report disk usages of file system. Useful for user as well as System Administrator to keep track of their disk usages. 
+‘df‘ works by examining directory entries, which generally are updated only when a file is closed.
+
+du 
+
+files disk usage
+
+
+
