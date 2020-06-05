@@ -185,3 +185,10 @@ Run Level	Mode	Action
 4	Undefined	Not used/User-definable
 5	X11	As runlevel 3 + display manager(X)
 6	Reboot	Reboots the system
+
+
+free SSH and FTP emulator
+https://www.rebex.net/terminal-emulation.net/
+
+  ssh.Connect("test.rebex.net");
+  ssh.Login("demo", "password");
