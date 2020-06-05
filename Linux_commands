@@ -158,4 +158,6 @@ get system information
 #neofetch 
 
 
+Running command with the time limit
+#timeout 5s ping google.com
 
