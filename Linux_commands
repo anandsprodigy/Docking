@@ -1,0 +1,18 @@
+#update linux (Ubuntu)
+
+sudo apt-get update
+
+#ASCII character names art
+
+sudo apt install figlet
+
+OR
+
+sudo apt install toilet
+
+figlet -c ANAND
+                          _    _   _    _    _   _ ____
+                         / \  | \ | |  / \  | \ | |  _ \
+                        / _ \ |  \| | / _ \ |  \| | | | |
+                       / ___ \| |\  |/ ___ \| |\  | |_| |
+                      /_/   \_\_| \_/_/   \_\_| \_|____/
