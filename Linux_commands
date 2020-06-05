@@ -161,3 +161,6 @@ get system information
 Running command with the time limit
 #timeout 5s ping google.com
 
+#sudo apt autoremove
+remove files which are remained in system and not been used.
+
