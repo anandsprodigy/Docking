@@ -25,3 +25,27 @@ toilet Anand
   #  #  #"  #  "   #  #"  #  #" "#
   #mm#  #   #  m"""#  #   #  #   #
  #    # #   #  "mm"#  #   #  "#m##
+ 
+
+
+#getting MD5 digest for the file
+
+md5sum simple.txt
+f9f5558c1ee19c62d2d50fe4d93a6a6d  simple.txt
+
+#computer details
+
+uname -a
+Linux LAPTOP-Hostname 4.4.0-18362-Microsoft #836-Microsoft Mon May 05 16:04:00 PST 2020 x86_64 x86_64 x86_64 GNU/Linux
+
+“Linux“: The machine’s kernel name.
+“LAPTOP-Hostname“: The machine’s node name. (network hostname)
+“4.4.0-18362-Microsoft“: The kernel release.
+“#836-Microsoft“: The kernel version.
+“x86_64 x86_64 x86_64“: The architecture of the processor.
+“GNU/Linux“: The operating system name.
+
+
+
+
+
