@@ -244,6 +244,20 @@ printf (1)           - format and print data
 whereis python
 whereis java
 
+#disk partitions
+
+#list partitions
+df
+fdisk
+
+#create physical volume
+pvcreate /dev/sdb1
+
+#create logical volume 
+lvcreate /dev/sdc1
+
+
+
 
 
 
