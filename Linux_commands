@@ -256,6 +256,38 @@ pvcreate /dev/sdb1
 #create logical volume 
 lvcreate /dev/sdc1
 
+#printing daemon start stop
+sudo service lpd start
+sudo service lpd stop
+sudo service --status-all
+sudo service lpd restart
+sudo service lpd status
+
+#send jobs/files to printing
+lpr simple.txt
+
+#check quque for printing
+anand@LAPTOP-LNV2UG9N:~$ lpq
+Warning: no daemon present
+Rank   Owner      Job  Files                                                                         Total Size
+1st    anand      2    simple.txt                                                                    90 bytes
+2nd    anand      3    simple.txt                                                                    90 bytes
+3rd    anand      5    file06_05_2020_T_16_11_16_IST                                                 18 bytes
+
+#remove files from quque
+lprm 2
+where 2 is job id for printing check above lpq output
+
+#Check specific files if printing
+lpq | grep simple
+1st    anand      6    simple.txt                            90 bytes
+2nd    anand      7    simple2.txt                           6 bytes
+
+
+
+
+
+
 
 
 
