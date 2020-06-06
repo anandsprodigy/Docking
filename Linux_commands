@@ -210,5 +210,11 @@ reboot
 halt 
 
 
+#short information about command
+man -k printf
+-->printf (1)           - format and print data
+
+man -k compress
+
 
 
