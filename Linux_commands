@@ -203,6 +203,12 @@ shutdown +15 <message>
 shutdown in 15 mins
 
 shutdown 23:00 <message>
-shutdown will be at 23:00 
+shutdown will be at 23:00
+
+reboot
+
+halt 
+
+
 
 
