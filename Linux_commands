@@ -187,8 +187,22 @@ Run Level	Mode	Action
 6	Reboot	Reboots the system
 
 
-free SSH and FTP emulator
+#free SSH and FTP emulator
 https://www.rebex.net/terminal-emulation.net/
 
   ssh.Connect("test.rebex.net");
   ssh.Login("demo", "password");
+
+
+#shutdown
+
+shutdown -c 
+Cancel shutdown if invoked
+
+shutdown +15 <message>
+shutdown in 15 mins
+
+shutdown 23:00 <message>
+shutdown will be at 23:00 
+
+
