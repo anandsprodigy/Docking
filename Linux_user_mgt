@@ -1,5 +1,139 @@
 #check user login password properties
 
+sudo chage -l <username>
+ 
+--> Output will be as follows:
+ 
+Last password change                                    : May 27, 2020
+Password expires                                        : never
+Password inactive                                       : never
+Account expires                                         : never
+Minimum number of days between password change          : 0
+Maximum number of days between password change          : 99999
+Number of days of warning before password expires       : 7
+
+#list all usres for the linux OS
+
+cat /etc/passwd
+
+--> output will be 
+anand:x:1000:1000:,,,:/home/anand:/bin/bash
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+
+There are some system user and groups creaated in order to interact with the system/processes
+
+ABove output will shows information as 
+username:password(show disabled):<user_ID>:<group_ID>:GECOS:<user_home_dir>:<user_login_shell>
+
+#user login properties definitions or configurations stored in below file:
+/etc/login.defs
+
+
+# Password aging controls:
+#
+#       PASS_MAX_DAYS   Maximum number of days a password may be used.
+#       PASS_MIN_DAYS   Minimum number of days allowed between password changes.
+#       PASS_WARN_AGE   Number of days warning given before a password expires.
+#
+PASS_MAX_DAYS   99999
+PASS_MIN_DAYS   0
+PASS_WARN_AGE   7
+
+
+# Min/max values for automatic uid selection in useradd
+#
+UID_MIN                  1000
+UID_MAX                 60000
+
+# Min/max values for automatic gid selection in groupadd                                                                #
+GID_MIN                  1000
+GID_MAX                 60000
+
+# If set to MD5 , MD5-based algorithm will be used for encrypting password
+# If set to SHA256, SHA256-based algorithm will be used for encrypting password
+# If set to SHA512, SHA512-based algorithm will be used for encrypting password
+# If set to DES, DES-based algorithm will be used for encrypting password (default)
+# Overrides the MD5_CRYPT_ENAB option
+#
+# Note: It is recommended to use a value consistent with
+# the PAM modules configuration.
+#
+ENCRYPT_METHOD SHA512
+
+PASS_MIN_LEN    6
+PASS_MAX_LEN    25
+
+We can setup password length, age, encryption, home directory details etc.
+
+
+#get user Information and associated groups
+
+>id anand
+uid=1000(anand) gid=1000(anand) groups=1000(anand),4(adm),20(dialout)
+
+Here UID, GID and groups the user associated listed. Every user should associated with at least one group. In above command user is 
+associated with anand (group with the sam username is created at the same time), ADM and Dialout. The number preceding denotes group ID.
+
+>Get information about group associated with user
+id -nG anand
+
+It will list only group names
+
+
+#passwords stored in separate file called /etc/shadow
+
+>cat /etc/shadow
+anand:PScwukCtMHvRTPFo3t1xEqwkAqi8oalVOXX7AFT1hKVdnZAIeaD.ANz7kxHZTuWdr65iIZdwQ.:18409:0:99999:7:::
+
+#change user credentails
+sudo vim /etc/login.defs
+
+We changed below settings
+PASS_MIN_LEN    6
+PASS_MAX_LEN    25
+
+PASS_MAX_DAYS   99
+PASS_MIN_DAYS   0
+PASS_WARN_AGE   7
+
+
+#add user in linux
+
+>sudo useradd linda
+
+#check user password details
+
+sudo chage -l linda
+
+Last password change                                    : Jun 07, 2020
+Password expires                                        : Sep 14, 2020
+Password inactive                                       : never
+Account expires                                         : never
+Minimum number of days between password change          : 0
+Maximum number of days between password change          : 99
+Number of days of warning before password expires       : 7
+
+
+#add new group
+sudo addgroup general_users
+
+#set password for the user
+sudo passwd audrey
+
+In this command provide password 2 times
+
+Or you can try below steps
+
+sudo echo password > passwd linda
+
+#list all groups
+cat /etc/group
+
+#add users to different group
+sudo usermod -aG <group_name> <user_name>
+
+#check user login password properties
+
  sudo chage -l <username>
  
 --> Output will be as follows:
@@ -80,6 +214,65 @@ id -nG anand
 It will list only group names
 
 
+#passwords stored in separate file called /etc/shadow
 
+>cat /etc/shadow
+anand:PScwukCtMHvRTPFo3t1xEqwkAqi8oalVOXX7AFT1hKVdnZAIeaD.ANz7kxHZTuWdr65iIZdwQ.:18409:0:99999:7:::
+
+#change user credentails
+sudo vim /etc/login.defs
+
+We changed below settings
+PASS_MIN_LEN    6
+PASS_MAX_LEN    25
+
+PASS_MAX_DAYS   99
+PASS_MIN_DAYS   0
+PASS_WARN_AGE   7
+
+
+#add user in linux
+
+>sudo useradd linda
+
+#check user password details
+
+sudo chage -l linda
+
+Last password change                                    : Jun 07, 2020
+Password expires                                        : Sep 14, 2020
+Password inactive                                       : never
+Account expires                                         : never
+Minimum number of days between password change          : 0
+Maximum number of days between password change          : 99
+Number of days of warning before password expires       : 7
+
+
+#add new group
+sudo addgroup general_users
+
+#set password for the user
+sudo passwd audrey
+
+In this command provide password 2 times
+
+Or you can try below steps
+
+sudo echo password | passwd --stdin linda
+
+#list all groups
+cat /etc/group
+
+#add users to different group
+sudo usermod -aG <group_name> <user_name>
+ 
+Where a flag is to append group. If a flag not used then all secondary groups will be removed.
+
+Primary Group: Primary groups are those whose name is similar with username. These are created by default along with user because linux
+user must be part of at least one group.
+
+Secondary groups are manually created groups which are used to assign previleges and permissions.
+
+sudo usermod -aG general_users audrey
 
 
