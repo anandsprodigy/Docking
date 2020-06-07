@@ -66,6 +66,20 @@ PASS_MAX_LEN    25
 We can setup password length, age, encryption, home directory details etc.
 
 
+#get user Information and associated groups
+
+>id anand
+uid=1000(anand) gid=1000(anand) groups=1000(anand),4(adm),20(dialout)
+
+Here UID, GID and groups the user associated listed. Every user should associated with at least one group. In above command user is 
+associated with anand (group with the sam username is created at the same time), ADM and Dialout. The number preceding denotes group ID.
+
+>Get information about group associated with user
+id -nG anand
+
+It will list only group names
+
+
 
 
 
