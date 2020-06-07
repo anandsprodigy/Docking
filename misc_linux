@@ -1,0 +1,15 @@
+#Basic configuration settings 
+https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/configuring_basic_system_settings/getting-started-with-system-administration_configuring-basic-system-settings
+
+
+Pretty host name
+My Machine
+Host name
+mymachine
+Real host name - fully qualified domain name (FQDN)
+mymachine.idm.company.com
+
+#get language locale for the machine
+
+> locale
+
