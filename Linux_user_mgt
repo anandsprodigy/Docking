@@ -1,0 +1,71 @@
+#check user login password properties
+
+ sudo chage -l <username>
+ 
+--> Output will be as follows:
+ 
+Last password change                                    : May 27, 2020
+Password expires                                        : never
+Password inactive                                       : never
+Account expires                                         : never
+Minimum number of days between password change          : 0
+Maximum number of days between password change          : 99999
+Number of days of warning before password expires       : 7
+
+#list all usres for the linux OS
+
+cat /etc/passwd
+
+--> output will be 
+anand:x:1000:1000:,,,:/home/anand:/bin/bash
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+
+There are some system user and groups creaated in order to interact with the system/processes
+
+ABove output will shows information as 
+username:password(show disabled):<user_ID>:<group_ID>:GECOS:<user_home_dir>:<user_login_shell>
+
+#user login properties definitions or configurations stored in below file:
+/etc/login.defs
+
+
+# Password aging controls:
+#
+#       PASS_MAX_DAYS   Maximum number of days a password may be used.
+#       PASS_MIN_DAYS   Minimum number of days allowed between password changes.
+#       PASS_WARN_AGE   Number of days warning given before a password expires.
+#
+PASS_MAX_DAYS   99999
+PASS_MIN_DAYS   0
+PASS_WARN_AGE   7
+
+
+# Min/max values for automatic uid selection in useradd
+#
+UID_MIN                  1000
+UID_MAX                 60000
+
+# Min/max values for automatic gid selection in groupadd                                                                #
+GID_MIN                  1000
+GID_MAX                 60000
+
+# If set to MD5 , MD5-based algorithm will be used for encrypting password
+# If set to SHA256, SHA256-based algorithm will be used for encrypting password
+# If set to SHA512, SHA512-based algorithm will be used for encrypting password
+# If set to DES, DES-based algorithm will be used for encrypting password (default)
+# Overrides the MD5_CRYPT_ENAB option
+#
+# Note: It is recommended to use a value consistent with
+# the PAM modules configuration.
+#
+ENCRYPT_METHOD SHA512
+
+PASS_MIN_LEN    6
+PASS_MAX_LEN    25
+
+We can setup password length, age, encryption, home directory details etc.
+
+
+
+
+
