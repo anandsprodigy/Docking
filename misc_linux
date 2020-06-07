@@ -16,3 +16,17 @@ mymachine.idm.company.com
 #get hostname
 
 >hostname
+
+#set date
+ date –set=”Date_in_format(YYMMDD) Time_in_format(HH:MM)
+ 
+ #how long system is up
+ >uptime
+ 
+ #zip files
+ zip Files.zip Check.txt Test.txt Output.txt
+ 
+ #unzip files
+ unzip Files.zip
+ 
+ 
