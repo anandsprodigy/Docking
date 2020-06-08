@@ -76,4 +76,5 @@ Profile and bash_logout are execuated on login. bashrc executed when user opens 
 
 When you want to create any files/folders into user directory then copy files in /etc/skel
 
+ ~/.profile
 
