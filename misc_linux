@@ -58,3 +58,22 @@ diff simple.txt simple2.txt
 
 #linux epoch time
 The Unix epoch (or Unix time or POSIX time or Unix timestamp) is the number of seconds that have elapsed since January 1, 1970
+
+#.bash_profile is executed for login shells, while .bashrc is executed for interactive non-login shells.
+
+-rw-r--r-- 1 root root  220 Feb 25 17:33 .bash_logout
+-rw-r--r-- 1 root root 3771 Feb 25 17:33 .bashrc
+-rw-r--r-- 1 root root  807 Feb 25 17:33 .profile
+
+Ubuntu files
+
+Profile and bash_logout are execuated on login. bashrc executed when user opens terminal.
+
+# The SKEL variable specifies the directory containing "skeletal" user
+# files; in other words, files such as a sample .profile that will be
+# copied to the new user's home directory when it is created.
+# SKEL=/etc/skel
+
+When you want to create any files/folders into user directory then copy files in /etc/skel
+
+
