@@ -30,3 +30,6 @@ mymachine.idm.company.com
  unzip Files.zip
  
  
+ #Convenient way to check if system is using systemd or sysvinit in BASH? 
+ --> check ps aux and pid 1 will show the process.
+ 
