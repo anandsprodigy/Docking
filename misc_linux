@@ -51,3 +51,8 @@ systemd – A init replacement daemon designed to start process in parallel, imp
 
 https://www.tecmint.com/systemd-replaces-init-in-linux/
 
+
+#difference in files
+
+diff simple.txt simple2.txt
+
