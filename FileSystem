@@ -13,3 +13,7 @@ xx is type of the device on which partition is present hd is for IDE disks and s
 y device on which partition is present
 N denotes partiotion 1-4 (Primary) >5 (logical)
 
+FIle system/Partition config files
+
+>cat /etc/fstab
+LABEL=cloudimg-rootfs   /        ext4   defaults        0 0
