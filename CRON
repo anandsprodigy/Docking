@@ -51,3 +51,13 @@ OR
 
 0 0 * * * /scripts/script.sh
 
+https://tecadmin.net/crontab-in-linux-with-20-examples-of-cron-schedule/
+
+
+[Minute] [hour] [Day_of_the_Month] [Month_of_the_Year] [Day_of_the_Week] [command]
+
+Astrics (*) – Matches anything
+Define range – You can define range using the hypen like: 1-10 or 20-30 or sun-fri or feb-apr
+Define multiple range – You can define multiple ranges with command seprated like: jan-mar,jul-sep
+
+#cron itself can't alert you if your jobs fail or never start.
