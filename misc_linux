@@ -109,4 +109,10 @@ http://www.unixguide.net/unixguide.shtml
 5) init
 
 
-
+1) BIOS check system and calls first bootloader MBR located on primary HDD
+2) First stage bootloader call 2nd bootloader
+3) Second stage bootloade called from /boot/
+4) Kernel then loads mounts root partitions
+5) Kernel hand over to boot process present at /sbin/init
+6) /sbin/init loads all services and mount all partitions present at /etc/fstab
+7) user login presented
