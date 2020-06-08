@@ -90,3 +90,7 @@ curl http://www.tutorialspoint.com -i
 
 #wget
 wget -O filename.zip http://www.domain.com/filename-4.0.1.zip
+
+#wget ftp
+wget --ftp-user=USERNAME --ftp-password=PASSWORD ftp://ftp.domain.com/filename.tar.gz
+
