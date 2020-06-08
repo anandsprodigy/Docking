@@ -17,3 +17,6 @@ FIle system/Partition config files
 
 >cat /etc/fstab
 LABEL=cloudimg-rootfs   /        ext4   defaults        0 0
+
+list devices
+ls /dev
