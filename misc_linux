@@ -145,3 +145,12 @@ type uname
 uname is /usr/bin/uname
 
 
+#unix files types
+1) Ordinary file
+2) Directory/Folder denoted as d
+3) link --> references to other files. denoted as l
+4) named pipe --> files for interprocess communications. denoted as p e.g. who | wc -l
+5) Socket --> used for interprocess communication. demoted as s
+6) device file --> file represents hardware. character based devices are c and block devices are b
+
+
