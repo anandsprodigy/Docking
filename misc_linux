@@ -135,3 +135,13 @@ Run-level
 5 full multi user + windows X system (GUI)
 6 Reboot
 
+#get kernel version
+cat /proc/version
+
+#apropos searches what is dictionary
+
+#type gives type of the command
+type uname
+uname is /usr/bin/uname
+
+
