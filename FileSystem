@@ -1,0 +1,15 @@
+File System in Linux
+
+File system is logical collection of files on partition or disk
+
+It is normal to have n=more than 1 partitions
+
+#partition naming
+
+/dev/xxyN
+
+dev is name of the directory where all device files presents
+xx is type of the device on which partition is present hd is for IDE disks and sd is for SCSI disks
+y device on which partition is present
+N denotes partiotion 1-4 (Primary) >5 (logical)
+
