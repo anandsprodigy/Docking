@@ -47,3 +47,7 @@ Upstart – A init replacement daemon implemented in Ubuntu GNU/Linux and design
 Epoch – A init replacement daemon built around simplicity and service management, designed to start process single-threaded.
 Mudar – A init replacement daemon written in Python, implemented on Pardus GNU/Linux and designed to start process asynchronously.
 systemd – A init replacement daemon designed to start process in parallel, implemented in a number of standard distribution – Fedora, OpenSuSE, Arch, RHEL, CentOS, etc.
+
+
+https://www.tecmint.com/systemd-replaces-init-in-linux/
+
