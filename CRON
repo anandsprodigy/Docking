@@ -74,3 +74,9 @@ Asterik(*) – Match all values in the field or any possible value.
 Hyphen(-) – To define range.
 Slash (/) – 1st field /10 meaning every ten minute or increment of range.
 Comma (,) – To separate items.
+
+#common schedules
+@reboot	Command will run when the system reboot.
+@daily	Once per day or may use @midnight.
+@weekly	Once per week.
+@yearly	Once per year. we can use @annually keyword also.
