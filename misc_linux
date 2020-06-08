@@ -94,3 +94,10 @@ wget -O filename.zip http://www.domain.com/filename-4.0.1.zip
 #wget ftp
 wget --ftp-user=USERNAME --ftp-password=PASSWORD ftp://ftp.domain.com/filename.tar.gz
 
+#Since there are many versions of Unix, it creates incomaptibility between them, to standardize Unix OS, IEEE created POSIX (Portable Operating System Interface)
+
+Not all linux follows POSIX but most do adhere important principle.
+
+#difference between Linux distros
+http://www.unixguide.net/unixguide.shtml
+
