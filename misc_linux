@@ -88,3 +88,5 @@ curl http://www.tutorialspoint.com
 curl http://www.tutorialspoint.com -i
 
 
+#wget
+wget -O filename.zip http://www.domain.com/filename-4.0.1.zip
