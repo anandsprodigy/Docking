@@ -116,3 +116,22 @@ http://www.unixguide.net/unixguide.shtml
 5) Kernel hand over to boot process present at /sbin/init
 6) /sbin/init loads all services and mount all partitions present at /etc/fstab
 7) user login presented
+
+#init program loads all services
+
+>pstree
+init─┬─cron
+     ├─init───bash───pstree
+     └─{init}
+     
+init config file present at /etc/initab
+
+Run-level
+0 halt
+1 single user
+2 multiple user no netwroking
+3 multiple user with networking
+4 user defined
+5 full multi user + windows X system (GUI)
+6 Reboot
+
