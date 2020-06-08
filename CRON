@@ -80,3 +80,6 @@ Comma (,) – To separate items.
 @daily	Once per day or may use @midnight.
 @weekly	Once per week.
 @yearly	Once per year. we can use @annually keyword also.
+
+#multiple commands
+@daily <command1> && <command2>
