@@ -276,3 +276,11 @@ Secondary groups are manually created groups which are used to assign previleges
 sudo usermod -aG general_users audrey
 
 
+#restrict commands to users
+
+1) create restricted shell
+cp /bin/bash /bin/rbash
+useradd -s /bin/rbash localuser
+
+Add existing user
+ usermod -s /bin/rbash localuser
