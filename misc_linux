@@ -78,3 +78,13 @@ When you want to create any files/folders into user directory then copy files in
 
  ~/.profile
 
+#curl - Transfers data from or to a server, using one of the protocols: 
+HTTP, HTTPS, FTP, FTPS, SCP, SFTP, TFTP, DICT, TELNET, LDAP or FILE. (To transfer multiple files use wget or FTP.
+
+#get webpage
+curl http://www.tutorialspoint.com
+
+#get webpage and headers
+curl http://www.tutorialspoint.com -i
+
+
