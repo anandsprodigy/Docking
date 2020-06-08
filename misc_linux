@@ -101,3 +101,12 @@ Not all linux follows POSIX but most do adhere important principle.
 #difference between Linux distros
 http://www.unixguide.net/unixguide.shtml
 
+#linux boot process
+1) System Startup/BIOS
+2) Stage1 Bootloader --> MBR
+3) Stage2 Bootloader --> Grub/LILO
+4) Kernel
+5) init
+
+
+
