@@ -56,3 +56,5 @@ https://www.tecmint.com/systemd-replaces-init-in-linux/
 
 diff simple.txt simple2.txt
 
+#linux epoch time
+The Unix epoch (or Unix time or POSIX time or Unix timestamp) is the number of seconds that have elapsed since January 1, 1970
