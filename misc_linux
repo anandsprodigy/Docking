@@ -33,3 +33,17 @@ mymachine.idm.company.com
  #Convenient way to check if system is using systemd or sysvinit in BASH? 
  --> check ps aux and pid 1 will show the process.
  
+ the init (initialization) process is the first process executed by the kernel at boot time. It has a process ID (PID) of 1, 
+ it is executed in the background until the system is shut down.
+ The init process starts all other processes, that is daemons, services and other background processes, 
+ therefore, it is the mother of all other processes on the system.
+ A process can start many other child processes on the system, but in the event that a parent process dies, 
+ init becomes the parent of the orphan process.
+ 
+ 
+ The need to replace init with something more perfect was felt from a long time and several alternatives were developed from time-to-time, some of which became distribution’s native init replacement, some of which are:
+
+Upstart – A init replacement daemon implemented in Ubuntu GNU/Linux and designed to start process asynchronously.
+Epoch – A init replacement daemon built around simplicity and service management, designed to start process single-threaded.
+Mudar – A init replacement daemon written in Python, implemented on Pardus GNU/Linux and designed to start process asynchronously.
+systemd – A init replacement daemon designed to start process in parallel, implemented in a number of standard distribution – Fedora, OpenSuSE, Arch, RHEL, CentOS, etc.
