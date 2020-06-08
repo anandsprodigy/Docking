@@ -62,7 +62,15 @@ Define multiple range – You can define multiple ranges with command seprated l
 
 #cron itself can't alert you if your jobs fail or never start.
 
-#list daily cron jobs;
-cd /etc/cron.daily/
-ls -l
-cat filename
+#System wide cron 
+/etc/cron.d
+/etc/cron.daily
+/etc/cron.hourly
+/etc/cron.monthly
+/etc/cron.weekly
+
+#Allowed characters
+Asterik(*) – Match all values in the field or any possible value.
+Hyphen(-) – To define range.
+Slash (/) – 1st field /10 meaning every ten minute or increment of range.
+Comma (,) – To separate items.
