@@ -26,3 +26,28 @@ crontab -l
 
 * * * * * every minutes
 
+CROND is service running for cron
+
+Cron is running their own shell. Hence, no echo is displayed
+
+
+#start crond service
+
+sudo /etc/init.d/cron start
+
+#run cron every 4 hr interval
+0 */4 * * * /scripts/script.sh 
+
+#multiple task in single cron job
+* * * * * /scripts/script.sh; /scripts/scrit2.sh
+
+#run cron at reboot
+@reboot /scripts/script.sh
+
+#run cron daily
+@daily /scripts/script.sh
+
+OR 
+
+0 0 * * * /scripts/script.sh
+
