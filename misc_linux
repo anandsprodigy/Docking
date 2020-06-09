@@ -185,3 +185,9 @@ tee command copy text from STD in such as | and redirect to STDout and file
 
 #change ownership of the user for file/directory
 sudo chown linda simple2.txt
+
+
+#longest line via wc
+ wc -L demo
+ 
+ 
