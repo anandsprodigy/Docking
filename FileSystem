@@ -37,4 +37,18 @@ none              999 -976K  977K     - /dev
 #get inode for file
  ls -il
  
+ #get stat about file inode
  
+>stat simple.txt
+  File: simple.txt
+  Size: 70              Blocks: 0          IO Block: 512    regular file
+Device: 2h/2d   Inode: 1970324837250862  Links: 1
+Access: (0666/-rw-rw-rw-)  Uid: ( 1000/   anand)   Gid: ( 1000/   anand)
+Access: 2020-06-09 10:19:05.306685200 +0530
+Modify: 2020-06-09 17:01:32.094964700 +0530
+Change: 2020-06-09 17:01:32.094964700 +0530
+ Birth: -
+ 
+ #inode for directory
+ls -ild
+2533274790517518 drwxr-xr-x 1 anand anand 512 Jun  9 16:32 .
