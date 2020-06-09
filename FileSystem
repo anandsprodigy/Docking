@@ -20,3 +20,21 @@ LABEL=cloudimg-rootfs   /        ext4   defaults        0 0
 
 list devices
 ls /dev
+
+
+#inode
+An inode is a data structure that stores various information about a file in Linux, such as the access mode (read, write, execute permissions), ownership, file type, file size, group, number of links, etc. Each inode is identified by an integer number. An inode is assigned to a file when it is created.
+
+Some file systems (most notably ext3) create all inodes when the file system is created. This means that it is possible to run out of storage because all of the inodes are used, although there is available space on the disk. Other file systems (like xfs) create inodes as needed.
+
+#get inode counts
+df -ih
+
+Filesystem     Inodes IUsed IFree IUse% Mounted on
+rootfs            999 -976K  977K     - /
+none              999 -976K  977K     - /dev
+
+#get inode for file
+ ls -il
+ 
+ 
