@@ -82,3 +82,4 @@ ln -s <file_name> <link_name>
 
 #remove symbolic links
 rm <symbolic_links>
+unlink symlink_name
