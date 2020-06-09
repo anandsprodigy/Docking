@@ -72,3 +72,11 @@ Changed by the mknod(2), utimes(2) and write(2) system calls.
 Last changed time
 Time when file status was last changed (inode data modification).
 Changed by the chmod(2), chown(2), link(2), mknod(2), rename(2), unlink(2), utimes(2) and write(2) system calls.
+
+
+#create hard link
+ln <link_name> <file_name>
+
+#create soft/symbolic link
+ln -s <file_name> <link_name>
+
