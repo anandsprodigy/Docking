@@ -175,3 +175,9 @@ command &> out
 command 1> file --> std out writen to file
 
 command 2> file --> std err writen to file
+
+
+
+#TEE
+
+tee command copy text from STD in such as | and redirect to STDout and file
