@@ -1,3 +1,5 @@
+Source: https://www.freecodecamp.org/news/the-linux-booting-process-6-steps-described-in-detail/
+
 An operating system (OS) is the low-level software that manages resources, controls peripherals, and provides basic services to other software. In Linux, there are 6 distinct stages in the typical booting process.
 
 1. BIOS
