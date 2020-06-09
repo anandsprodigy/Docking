@@ -205,3 +205,5 @@ sudo chown linda simple2.txt
  #cal full year
  cal 2018
  
+#search if package is installed 
+ sudo apt search openssh-server
