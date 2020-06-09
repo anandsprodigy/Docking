@@ -46,6 +46,10 @@ i case insensitive
 g global
 s string
 
+:%s/links/Hard_link/igc 
+
+c confirmation (it will ask for every substitution)
+
 
 https://www.youtube.com/watch?v=Vnj0L8Dj7HQ
 
