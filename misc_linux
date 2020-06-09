@@ -202,4 +202,6 @@ sudo chown linda simple2.txt
  #calender
  cal -3 3 2007
  
+ #cal full year
+ cal 2018
  
