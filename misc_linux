@@ -168,3 +168,6 @@ https://www.cs.colostate.edu/helpdocs/vi.html
 in 0
 out 1
 error 2
+
+#redirect to both in and out
+command &> out
