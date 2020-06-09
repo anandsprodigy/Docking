@@ -161,3 +161,10 @@ https://www.youtube.com/watch?v=HWMvsaiPwFk
 
 vi
 https://www.cs.colostate.edu/helpdocs/vi.html
+
+
+#redirection
+
+in 0
+out 1
+error 2
