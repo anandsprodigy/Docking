@@ -52,3 +52,10 @@ Change: 2020-06-09 17:01:32.094964700 +0530
  #inode for directory
 ls -ild
 2533274790517518 drwxr-xr-x 1 anand anand 512 Jun  9 16:32 .
+
+
+#There are 3 kind of "timestamps":
+
+Access - the last time the file was read
+Modify - the last time the file was modified (content has been modified)
+Change - the last time meta data of the file was changed (e.g. permissions)
