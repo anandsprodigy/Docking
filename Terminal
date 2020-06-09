@@ -33,3 +33,20 @@ The entries in /dev/pts correspond to pseudo-terminals (or pseudo-TTYs, or PTYs)
 
 
 In laymen terms the primary difference between TTY and PTS is the type of connection to the computer. TTY ports are direct connections to the computer such as a keyboard/mouse or a serial connection to the device. PTS connections are SSH connections or telnet connections. All of these connections can connect to a shell which will allow you to issue commands to the computer.
+
+
+ps aux
+
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0   8892   136 ?        Ssl  17:01   0:00 /init
+root         7  0.0  0.0   8896   104 tty1     Ss   17:01   0:00 /init
+anand        8  0.0  0.0  18208  3128 tty1     S    17:01   0:00 -bash
+anand      133  0.0  0.1  29572  5700 tty1     T    19:15   0:00 vi sample
+root       963  0.0  0.0  20208  1096 ?        Ss   19:58   0:00 sshd: /usr/sbin
+root       967  0.2  0.1  21728  4964 ?        Ss   19:58   0:00 sshd: anand [priv]
+anand     1018  0.0  0.0  21728  1852 ?        S    19:58   0:00 sshd: anand@pts/0
+anand     1019  0.3  0.0  18076  3612 pts/0    Ss   19:58   0:00 -bash
+root      1039  1.1  0.1  21728  4996 ?        Ss   19:59   0:00 sshd: linda [priv]
+linda     1091  0.0  0.0  21728  1864 ?        S    19:59   0:00 sshd: linda@pts/1
+linda     1092  0.5  0.0  10656   808 pts/1    Ss   19:59   0:00 -sh
+anand     1099  0.0  0.0  18648  1884 tty1     R    19:59   0:00 ps aux
