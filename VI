@@ -1,0 +1,53 @@
+#Navigation
+1) HJKL and arrow keys
+2) front of the line --> 0 or ^
+3) End of the line --> $
+
+H              Move to the first line on the screen
+M              Move to the middle line of the screen
+L              Move to the last line of the screen
+
+1G             Move to the first line of the file
+G              Move to the last line of the file
+31G            Move to the 31st line of the file
+
+
+
+#cut
+dd
+3dd --> current line and bottom 3 lines cut
+
+#undo
+u
+
+#paste
+p
+
+#copy or yank
+yy
+
+#search
+
+Find a word in Vim or vi text editor
+To search using Vim/vi, for the current word:
+
+In normal mode, you can search forward or backward.
+One can search forward in vim/vi by pressing / and then typing your search pattern/word.
+To search backward in vi/vim by pressing ? and then typing your search pattern/word.
+Once word found in vim, you can press the n key to go directly to the next occurrence of the word in backwards. Press the N key to go directly to the opposite direction, i.e. forwards.
+
+
+
+#replace
+
+:%s/Gid/GroupID/ig 
+
+i case insensitive
+g global
+s string
+
+
+https://www.youtube.com/watch?v=Vnj0L8Dj7HQ
+
+
+
