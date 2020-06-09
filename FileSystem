@@ -59,3 +59,16 @@ ls -ild
 Access - the last time the file was read
 Modify - the last time the file was modified (content has been modified)
 Change - the last time meta data of the file was changed (e.g. permissions)
+
+
+Last access time
+Time when file data last accessed.
+Changed by the mknod(2), utimes(2) and read(2) system calls.
+
+Last modified time
+Time when file data last modified.
+Changed by the mknod(2), utimes(2) and write(2) system calls.
+
+Last changed time
+Time when file status was last changed (inode data modification).
+Changed by the chmod(2), chown(2), link(2), mknod(2), rename(2), unlink(2), utimes(2) and write(2) system calls.
