@@ -190,4 +190,16 @@ sudo chown linda simple2.txt
 #longest line via wc
  wc -L demo
  
+ #calender previous current and next month
+  cal -3
+  
+ #calender this month
+ cal
+ 
+ #calender 
+ cal 03 2007
+ 
+ #calender
+ cal -3 3 2007
+ 
  
