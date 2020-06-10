@@ -220,5 +220,4 @@ ssh-keygen -b 1024 -t ecdsa -f /etc/ssh/ssh_host_ecdsa_key
 
 #FQDN for hostname
 hostname -f
-
 somePC.localdomain
