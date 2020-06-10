@@ -233,4 +233,9 @@ The /etc/hosts file provides a list of IP addresses with corresponding hostnames
  
  Where m is MB.
  
+               total        used        free      shared  buff/cache   available
+Mem:           3948        3008         716          17         223         809
+Swap:         12288         633       11654
+
+System will retain cache untill any program needs space. then cache memory is deleted as when needed.
  
