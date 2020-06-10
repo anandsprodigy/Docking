@@ -1,0 +1,51 @@
+Process Priorities
+When you run a program in Linux, such as the vim editor, the system creates an instance of the program. This running instance of a program is called a process. Every process requires a certain amount of system resources, such as CPU time and RAM, to be able to perform its tasks. Each process is assigned a process priority to determine how much CPU or processor time is allocated to it for execution.
+
+Note that there are hundreds of processes running in a Linux system at any point in time. Sometimes they all get sufficient CPU time for execution and sometimes they don't, which is when the idea of process priority comes in handy. The process priority determines which process gets more CPU time and which processes can be left to wait in the background (for execution at a later time when things are less demanding).
+
+In addition to processes, in Linux, there are users of processes. Linux allows us to set a level of 'niceness' (a nice value) on a per-user basis. Note that the nice value only controls how much CPU time each process is allocated, but not how much memory can be used or which I/O devices can be used. Bear in mind that the process priority may differ from the nice value. The nice value is how much priority the Linux kernel will grant to each named user, whereas the process priority is the actual priority of a running process.
+
+There are 140 possible priorities and two kinds (real-time priority and the nice value).
+Real-time priority goes from 1 to 99, with 100 to 139 dedicated to user-space.
+The nice value of a process can have a range between -20 (highest priority) to +19 (lowest priority).
+If the nice value of a process is lower, it gets a higher priority, which means the CPU will execute that process more often.
+If the nice value of a process is higher, it gets a lesser priority, which means the CPU will execute that process less often (whenever it gets an opportunity).
+By default, the nice value is zero.
+Verifying the Process Priorities
+You can verify the process priority or the nice value on the command line. Run the following command to determine the nice value of a process if you know the process ID (PID):
+
+ps -o pid,comm,nice -p 2951
+
+Here is the output of the command showing the process ID (PID), the command associated with that process ID, and the nice value (NI) for that instance:
+
+PID COMMAND NI
+
+2951 bash 0
+
+You can also run the top command to display the list of processes, process IDs, their nice values (NI column), CPU, memory, and other details. Here is a screenshot of the output of the top command:
+
+
+Output of the TOP Command
+top-output
+
+Modifying Process Priority
+You can set and modify the priority of a process to make more efficient use of limited system resources.
+
+Let us consider the scenario where the Linux system has slowed down due to a shortage of RAM. In other words, the programs running on the system (processes) are too slow and some of them are not responding at all. In this case, you have the option of killing some processes in a terminal. However, you might not want to stop those processes completely, and even the terminal by itself could be lagging as a result of one very demanding process consuming all available resources. You can avoid this by starting the lagging process (for instance the 'bash' process) with a higher priority than before.
+
+The nice Command
+You can use the nice command to start a process with a specific nice value. For example:
+
+nice -n -5 bash
+
+This command sets the nice value of the bash shell process to -5.
+
+The renice Command
+You can use the renice command to modify the priority of a running process. For example:
+
+renice -15 2951
+
+This command changes the priority of the bash shell process to -15. The number 2951 is the process ID (PID) of bash. Here is the output of this command:
+
+2951: old priority -5, new priority -15
+
