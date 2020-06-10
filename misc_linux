@@ -227,3 +227,10 @@ The /etc/hosts file provides a list of IP addresses with corresponding hostnames
 
 198.51.100.30   example.com
 192.168.1.1     stick.example.com
+
+#check memory usage
+ free -m
+ 
+ Where m is MB.
+ 
+ 
