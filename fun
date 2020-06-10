@@ -9,3 +9,6 @@ http://ezprompt.net/
 
 export PS1="\u@\H:\w:\s:\d[\A]: "
 user@host.domain.com:~/dir:bash:Tue Jun 09[21:08]:
+
+
+https://study.com/academy/course/computer-science-106-introduction-to-linux.html
