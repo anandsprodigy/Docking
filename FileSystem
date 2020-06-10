@@ -83,3 +83,21 @@ ln -s <file_name> <link_name>
 #remove symbolic links
 rm <symbolic_links>
 unlink symlink_name
+
+
+#check files and devices mounted
+
+mount
+
+rootfs on / type lxfs (rw,noatime)
+none on /dev type tmpfs (rw,noatime,mode=755)
+sysfs on /sys type sysfs (rw,nosuid,nodev,noexec,noatime)
+proc on /proc type proc (rw,nosuid,nodev,noexec,noatime)
+devpts on /dev/pts type devpts (rw,nosuid,noexec,noatime,gid=5,mode=620)
+none on /run type tmpfs (rw,nosuid,noexec,noatime,mode=755)
+
+
+Some linux group media and devices in /media and /mnt directories
+
+
+
