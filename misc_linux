@@ -221,3 +221,6 @@ ssh-keygen -b 1024 -t ecdsa -f /etc/ssh/ssh_host_ecdsa_key
 #FQDN for hostname
 hostname -f
 somePC.localdomain
+
+#hosts file
+The /etc/hosts file provides a list of IP addresses with corresponding hostnames. This allows you to specify hostnames for an IP address in one place on the local machine, and then have multiple applications connect to external resources via their hostnames. The system of host files precedes DNS, and hosts files are always checked before DNS is queried. As a result, /etc/hosts can be useful for maintaining small “internal” networks, for development purposes, and for managing clusters.
