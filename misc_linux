@@ -256,3 +256,7 @@ ii  apache2-mpm-itk              2.2.6-02-1+lenny2            multiuser MPM for 
 ii  apache2-utils                2.2.9-10+lenny4              utility programs for webservers
 ii  apache2.2-common             2.2.9-10+lenny4              Apache HTTP Server common files
 
+#get info about package
+ dpkg -l | grep curl
+ 
+ 
