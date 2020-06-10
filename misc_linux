@@ -267,3 +267,15 @@ ii  apache2.2-common             2.2.9-10+lenny4              Apache HTTP Server
  #search and replace
  sed -i `s/^good/BAD/` morning-star.txt
  
+ #ls -al
+ -rw-rw-rw- 1 anand anand    66 Jun  8 12:29 .selected_editor
+drwx------ 1 anand anand   512 Jun  5 16:44 .ssh
+
+- - regular file
+c - character device
+b - block device
+d - directory
+p - named pipe
+l - symbolic link
+
+
