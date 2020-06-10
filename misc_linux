@@ -259,4 +259,7 @@ ii  apache2.2-common             2.2.9-10+lenny4              Apache HTTP Server
 #get info about package
  dpkg -l | grep curl
  
+ OR
+ 
+  apt-cache search jdk
  
