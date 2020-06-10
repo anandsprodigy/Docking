@@ -245,3 +245,14 @@ scp [/path/to/local/file] [remote-username]@[remote-hostname]:[/path/to/remote/f
 scp /home/anand/simple.txt anand@hostname:/home/linda/
  
 This command is available by default on OS X and Linux machines. You can use it to copy files to a Linode, as well as between remote servers. If you use SSH keys, you can use the scp command without entering a password for every transfer.
+
+#list all packages
+dpkg -l
+
+||/ Name                         Version                      Description
++++-============================-============================-===============================
+ii  adduser                      3.110                        add and remove users and groups
+ii  apache2-mpm-itk              2.2.6-02-1+lenny2            multiuser MPM for Apache 2.2
+ii  apache2-utils                2.2.9-10+lenny4              utility programs for webservers
+ii  apache2.2-common             2.2.9-10+lenny4              Apache HTTP Server common files
+
