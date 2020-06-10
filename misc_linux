@@ -217,3 +217,8 @@ ssh-keygen -b 1024 -t rsa -f /etc/ssh/ssh_host_rsa_key
 ssh-keygen -b 1024 -t dsa -f /etc/ssh/ssh_host_dsa_key
 ssh-keygen -b 1024 -t ecdsa -f /etc/ssh/ssh_host_ecdsa_key
 
+
+#FQDN for hostname
+hostname -f
+
+somePC.localdomain
