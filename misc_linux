@@ -278,4 +278,18 @@ d - directory
 p - named pipe
 l - symbolic link
 
+#The user file-creation mode mask (umask) is use to determine the file permission for newly created files. It can be used to control the default file permission for new files. It is a four-digit octal number.
+
+umask 0023
+
+Linux us very liberal for permissions. The default permissions for file will be 666 and directories 777
+
+i.e. files rw- rw- rw-
+directories rwx rwx rwx
+
+One can find default umask value for user in below files
+/etc/profile or
+/etc/login.defs
+
+after file creation based on user umask file permissions are derived. screenshot in directory
 
