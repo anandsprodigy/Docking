@@ -263,3 +263,7 @@ ii  apache2.2-common             2.2.9-10+lenny4              Apache HTTP Server
  
   apt-cache search jdk
  
+ 
+ #search and replace
+ sed -i `s/^good/BAD/` morning-star.txt
+ 
