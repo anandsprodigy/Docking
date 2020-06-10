@@ -238,4 +238,10 @@ Mem:           3948        3008         716          17         223         809
 Swap:         12288         633       11654
 
 System will retain cache untill any program needs space. then cache memory is deleted as when needed.
+
+#send files to other server
+scp [/path/to/local/file] [remote-username]@[remote-hostname]:[/path/to/remote/file]
+
+scp /home/anand/simple.txt anand@hostname:/home/linda/
  
+This command is available by default on OS X and Linux machines. You can use it to copy files to a Linode, as well as between remote servers. If you use SSH keys, you can use the scp command without entering a password for every transfer.
