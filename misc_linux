@@ -351,3 +351,15 @@ https://shreevatsa.wordpress.com/2008/03/30/zshbash-startup-files-loading-order-
 
 #get run level
 runlevel
+
+#To install a .deb package:
+
+dpkg -i filename.deb
+where filename.deb is the name of the Debian package (such as pkgname_0.00-1_amd64.deb).
+
+The list of installed packages can be obtained with:
+
+dpkg -l [optional pattern]
+To remove an installed package:
+
+dpkg -r packagename
