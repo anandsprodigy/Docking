@@ -49,3 +49,8 @@ This command changes the priority of the bash shell process to -15. The number 2
 
 2951: old priority -5, new priority -15
 
+
+#task kill
+
+kill -9 <pid>
+
