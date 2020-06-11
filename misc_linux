@@ -385,3 +385,6 @@ DISTRIB_DESCRIPTION="Ubuntu 20.04 LTS"
 
 #start SSH service
 sudo service ssh start
+
+#Sys V and Systemd cheatsheet
+https://www.2daygeek.com/sysvinit-vs-systemd-cheatsheet-systemctl-command-usage/ 
