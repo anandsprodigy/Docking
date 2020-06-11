@@ -25,3 +25,8 @@ System log
 Location: /var/log/syslog
 
 Contains more information about your system. If you can’t find anything in the other logs, it’s probably here.
+
+
+#enable logging 
+sudo service rsyslog restart
+
