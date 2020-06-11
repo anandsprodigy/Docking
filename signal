@@ -77,3 +77,22 @@ Dump core. This creates a file called core containing the memory image of the pr
 Stop the process.
 
 Continue a stopped process.
+
+
+#kill process
+
+kill -s 9 PID
+
+kill -s SIGKILL PID
+
+#signals and traps
+https://www.youtube.com/watch?v=rJy6fieu-sk
+
+
+Channel Name: Information Security-3 
+
+Module 40 - Shell Signals and Traps
+
+
+
+
