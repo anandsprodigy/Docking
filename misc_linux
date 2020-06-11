@@ -376,3 +376,9 @@ Distributor ID: Ubuntu
 Description:    Ubuntu 20.04 LTS
 Release:        20.04
 Codename:       focal
+
+cat  /etc/lsb-release
+DISTRIB_ID=Ubuntu
+DISTRIB_RELEASE=20.04
+DISTRIB_CODENAME=focal
+DISTRIB_DESCRIPTION="Ubuntu 20.04 LTS"
