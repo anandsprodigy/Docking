@@ -284,3 +284,16 @@ useradd -s /bin/rbash localuser
 
 Add existing user
  usermod -s /bin/rbash localuser
+ 
+ #lock user 
+ 
+ passwd -l anand
+ 
+ #unlock user 
+ 
+ passwd -u anand
+ 
+ #set never expiring passwd
+ 
+ passwd -x -1 anand
+ 
