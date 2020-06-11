@@ -293,3 +293,12 @@ One can find default umask value for user in below files
 
 after file creation based on user umask file permissions are derived. screenshot in directory
 
+
+#list aliases
+alias
+
+#Create alias
+alias ec="echo 'anand'"
+
+Alias will be added untill the terminal is up and running. 
+
