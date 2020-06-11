@@ -1,0 +1,27 @@
+System logs
+System logs deal with exactly that - the Ubuntu system - as opposed to extra applications added by the user. These logs may contain information about authorizations, system daemons and system messages.
+
+Authorization log
+Location: /var/log/auth.log
+
+Keeps track of authorization systems, such as password prompts, the sudo command and remote logins.
+
+Daemon Log
+Location: /var/log/daemon.log
+
+Daemons are programs that run in the background, usually without user interaction. For example, display server, SSH sessions, printing services, bluetooth, and more.
+
+Debug log
+Location: /var/log/debug
+
+Provides debugging information from the Ubuntu system and applications.
+
+Kernel log
+Location: /var/log/kern.log
+
+Logs from the Linux kernel.
+
+System log
+Location: /var/log/syslog
+
+Contains more information about your system. If you can’t find anything in the other logs, it’s probably here.
