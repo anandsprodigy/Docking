@@ -369,3 +369,10 @@ dpkg -r packagename
 
 lsb_release -a
 cat /etc/*release*
+
+lsb_release -a
+No LSB modules are available.
+Distributor ID: Ubuntu
+Description:    Ubuntu 20.04 LTS
+Release:        20.04
+Codename:       focal
