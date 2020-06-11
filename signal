@@ -63,3 +63,17 @@ kill -l
 53) SIGRTMAX-11 54) SIGRTMAX-10 55) SIGRTMAX-9  56) SIGRTMAX-8  57) SIGRTMAX-7
 58) SIGRTMAX-6  59) SIGRTMAX-5  60) SIGRTMAX-4  61) SIGRTMAX-3  62) SIGRTMAX-2
 63) SIGRTMAX-1  64) SIGRTMAX
+
+Every signal has a default action associated with it. The default action for a signal is the action that a script or program performs when it receives a signal.
+
+Some of the possible default actions are −
+
+Terminate the process.
+
+Ignore the signal.
+
+Dump core. This creates a file called core containing the memory image of the process when it received the signal.
+
+Stop the process.
+
+Continue a stopped process.
