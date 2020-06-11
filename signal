@@ -1,0 +1,35 @@
+Linux supports both POSIX reliable signals (hereinafter "standard signals") and POSIX real-time signals.
+
+Each  signal has a current disposition, which determines how the process behaves when it is delivered the signal.
+
+The entries in the "Action" column of the table below specify the default disposition for each signal, as follows:
+
+       Term   Default action is to terminate the process.
+
+       Ign    Default action is to ignore the signal.
+
+       Core   Default action is to terminate the process and dump core (see core(5)).
+
+       Stop   Default action is to stop the process.
+
+       Cont   Default action is to continue the process if it is currently stopped.
+
+Sending a signal
+
+The following system calls and library functions allow the caller to send a signal:
+
+       raise(3)        Sends a signal to the calling thread.
+
+       kill(2)         Sends a signal to a specified process, to all members of a specified process group, or to  all
+                       processes on the system.
+
+       killpg(3)       Sends a signal to all of the members of a specified process group.
+
+       pthread_kill(3) Sends a signal to a specified POSIX thread in the same process as the caller.
+
+       tgkill(2)       Sends a signal to a specified thread within a specific process.  (This is the system call used
+                       to implement pthread_kill(3).)
+
+       sigqueue(3)     Sends a real-time signal with accompanying data to a specified process.
+  
+  
