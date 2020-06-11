@@ -94,5 +94,20 @@ Channel Name: Information Security-3
 Module 40 - Shell Signals and Traps
 
 
+Trapping Signals
+When you press the Ctrl+C or Break key at your terminal during execution of a shell program, normally that program is immediately terminated, and your command prompt returns. This may not always be desirable. For instance, you may end up leaving a bunch of temporary files that won't get cleaned up.
 
+Trapping these signals is quite easy, and the trap command has the following syntax −
+
+$ trap commands signals
+Here command can be any valid Unix command, or even a user-defined function, and signal can be a list of any number of signals you want to trap.
+
+There are two common uses for trap in shell scripts −
+
+Clean up temporary files
+Ignore signals
+Cleaning Up Temporary Files
+As an example of the trap command, the following shows how you can remove some files and then exit if someone tries to abort the program from the terminal −
+
+$ trap "rm -f $WORKDIR/work1$$ $WORKDIR/dataout$$; exit" 2
 
