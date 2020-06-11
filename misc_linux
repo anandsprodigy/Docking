@@ -316,6 +316,9 @@ alias la='ls -A'
 alias l='ls -CF'
 alias ec='echo "Anand"'
 
+to source file use below command
+source ~/.bashrc
+
 
 For Bash, they work as follows. Read down the appropriate column. Executes A, then B, then C, etc. The B1, B2, B3 means it executes only the first of those files found.
 
