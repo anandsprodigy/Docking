@@ -10,3 +10,7 @@ for TOKEN in $@
 do
         echo $TOKEN
 done
+
+
+# "$*" special parameter takes the entire list as one argument with spaces between 
+# "$@" special parameter takes the entire list and separates it into separate arguments.
