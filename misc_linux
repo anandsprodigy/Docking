@@ -363,3 +363,9 @@ dpkg -l [optional pattern]
 To remove an installed package:
 
 dpkg -r packagename
+
+
+#Ubuntu version
+
+lsb_release -a
+cat /etc/*release*
