@@ -401,4 +401,9 @@ ssh username@ipaddress
 #create multiple files using touch
 touch test{1..3}.txt
 
+#display (viewonly) line numbers by cat command
+cat -n textfile
+
+#display line numbers for only non empty lines
+cat -b textfile
 
