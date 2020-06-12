@@ -407,3 +407,6 @@ cat -n textfile
 #display line numbers for only non empty lines
 cat -b textfile
 
+#preserve file attribute change during file move
+cp -pv file destination
+
