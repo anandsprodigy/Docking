@@ -85,3 +85,7 @@ pkill <process_name>
 pkill -9 <process_name>
 
 Default signal used by kill is SIGTERM or 15
+
+#list signals
+kill -l
+
