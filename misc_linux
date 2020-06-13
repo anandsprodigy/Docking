@@ -451,3 +451,16 @@ user-related programs.
 /dev: The device driver files are stored in this folder. These device driver files
 will point to hardware-related programs running in the kernel.
 /etc: This folder contains configuration files and startup scripts.
+
+#man/help command grouping
+
+Section number Subject area
+1 User commands
+2 System calls
+3 Library calls
+4 Special files
+5 File formats
+6 Games
+7 Miscellaneous
+8 System admin
+9 Kernel routines
