@@ -99,5 +99,7 @@ sleep 10000 &
 [1] 389
 sleep: cannot read realtime clock: Invalid argument
 
+#check background jobs
+jobs
 
 
