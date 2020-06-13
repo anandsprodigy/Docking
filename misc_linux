@@ -426,3 +426,8 @@ pidof /init
 #bash version
 bash -version
 
+#display details about the files
+ll 
+
+ll text2.txt
+
