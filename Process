@@ -116,5 +116,5 @@ jobs
 Here background process provide output PID
 
 
-
+The jobs command lists all the processes running in the Terminal, including foreground and background processes. You can clearly see their status as running, suspended, or stopped. The numbers in <> show the job ID. The + sign indicates which command will receive fg and bg commands by default.
 
