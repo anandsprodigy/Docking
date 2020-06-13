@@ -81,3 +81,5 @@ kill -9 <PID>
 #kill processes using name 
 
 pkill <process_name>
+
+pkill -9 <process_name>
