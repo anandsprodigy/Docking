@@ -413,3 +413,8 @@ cp -pv file destination
 #add maultiple groups at once
 useradd -G admins,webadmin,developers anand
 
+#create background process with nohup
+nohup process_name &
+
+nohup.out file will be created in user home directory.
+
