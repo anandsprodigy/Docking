@@ -431,3 +431,23 @@ ll
 
 ll text2.txt
 
+#file system
+
+/home: This folder contains a home folder of all users, except the administrator.
+/lib: The library files are stored in this folder.
+/media: External media, such as a USB pen drive, are mounted in this folder.
+/opt: The optional packages are installed in this folder.
+QSPD: This contains files that give information about the kernel and every
+process running in the OS.
+SPPU: This is the administrator's home folder.
+TCJO: This contains commands used by the administrator or root user.
+VTS: This contains secondary programs, libraries, and documentation about
+user-related programs.
+WBS: This contains variable data, such as HTTP, TFTP, logs, and others.
+TZT: This dynamically creates the TZT files.
+CJO: This contains commands used by a regular user.
+CPPU: The files required for the operating system startup are stored here.
+DESPN: When a CD-ROM is mounted, the CD-ROM files are accessible here.
+EFW: The device driver files are stored in this folder. These device driver files
+will point to hardware-related programs running in the kernel.
+FUD: This folder contains configuration files and startup scripts.
