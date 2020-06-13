@@ -126,3 +126,7 @@ where 3 jobs id if you use only fg then + sign job will get foreground entry
 CTRL + Z --> STOP
 
 CTRL + C --> TERMINATE
+
+detailed output for jobs is as follows
+
+jobs -l
