@@ -418,3 +418,10 @@ nohup process_name &
 
 nohup.out file will be created in user home directory.
 
+#get PID using file or script 
+pidof ./script.sh
+
+pidof /init
+
+
+
