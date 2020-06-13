@@ -410,3 +410,6 @@ cat -b textfile
 #preserve file attribute change during file move
 cp -pv file destination
 
+#add maultiple groups at once
+useradd -G admins,webadmin,developers anand
+
