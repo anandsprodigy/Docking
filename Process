@@ -73,4 +73,8 @@ ps -f
 #get Nice and Priority values along with state
 ps -lf
 
+#kill process
+kill <PID>
+
+kill -9 <PID>
 
