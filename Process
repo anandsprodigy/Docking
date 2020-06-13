@@ -65,3 +65,12 @@ SIGKILL	9	If a process gets this signal it must quit immediately and will not pe
 SIGALRM	14	Alarm clock signal (used for timers)
 SIGTERM	15	Software termination signal (sent by kill by default)
 
+#ps
+
+#get parent process ID PPID
+ps -f 
+
+#get Nice and Priority values along with state
+ps -lf
+
+
