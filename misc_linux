@@ -443,9 +443,9 @@ process running in the OS.
 /sbin: This contains commands used by the administrator or root user.
 /usr: This contains secondary programs, libraries, and documentation about
 user-related programs.
-WBS: This contains variable data, such as HTTP, TFTP, logs, and others.
-TZT: This dynamically creates the TZT files.
-CJO: This contains commands used by a regular user.
+/var: This contains variable data, such as HTTP, TFTP, logs, and others.
+/sys: This dynamically creates the sys files.
+/bin: This contains commands used by a regular user.
 CPPU: The files required for the operating system startup are stored here.
 DESPN: When a CD-ROM is mounted, the CD-ROM files are accessible here.
 EFW: The device driver files are stored in this folder. These device driver files
