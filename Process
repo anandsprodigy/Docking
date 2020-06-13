@@ -102,4 +102,19 @@ sleep: cannot read realtime clock: Invalid argument
 #check background jobs
 jobs
 
+#jobs in background
+
+read d &
+[4] 393
+
+jobs
+[1]   Stopped                 read A
+[2]   Stopped                 read B
+[3]-  Stopped                 read c
+[4]+  Stopped                 read d
+
+Here background process provide output PID
+
+
+
 
