@@ -89,3 +89,7 @@ Default signal used by kill is SIGTERM or 15
 #list signals
 kill -l
 
+#create backgound process
+./script &
+
+command &
