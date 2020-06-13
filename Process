@@ -142,3 +142,10 @@ MiB Swap:  12288.0 total,  11822.2 free,    465.8 used.   1089.1 avail Mem
   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
     1 root      20   0    8892    224    188 S   0.0   0.0   0:00.09 init
     7 root      20   0    8896    168    124 S   0.0   0.0   0:00.00 init
+
+First line starting with top shows
+
+Current time
+System uptime
+Number of users logged in
+Load average of 5, 10, and 15 minutes, respectively
