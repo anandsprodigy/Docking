@@ -122,3 +122,7 @@ The jobs command lists all the processes running in the Terminal, including fore
 fg 3
 
 where 3 jobs id if you use only fg then + sign job will get foreground entry
+
+CTRL + Z --> STOP
+
+CTRL + C --> TERMINATE
