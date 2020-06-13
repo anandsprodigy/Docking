@@ -446,8 +446,8 @@ user-related programs.
 /var: This contains variable data, such as HTTP, TFTP, logs, and others.
 /sys: This dynamically creates the sys files.
 /bin: This contains commands used by a regular user.
-CPPU: The files required for the operating system startup are stored here.
-DESPN: When a CD-ROM is mounted, the CD-ROM files are accessible here.
-EFW: The device driver files are stored in this folder. These device driver files
+/boot: The files required for the operating system startup are stored here.
+/cdrom: When a CD-ROM is mounted, the CD-ROM files are accessible here.
+/dev: The device driver files are stored in this folder. These device driver files
 will point to hardware-related programs running in the kernel.
-FUD: This folder contains configuration files and startup scripts.
+/etc: This folder contains configuration files and startup scripts.
