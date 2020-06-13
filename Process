@@ -149,3 +149,15 @@ Current time
 System uptime
 Number of users logged in
 Load average of 5, 10, and 15 minutes, respectively
+
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+
+This line shows information about CPU usage as a % in different modes as follows:
+us (user): CPU usage in % for running (un-niced) user processes
+sy (system): CPU usage in % for running kernel processes
+ni (niced): CPU usage in % for running niced user processes
+hi (hardware interrupt): CPU usage in % for serving hardware
+interrupts
+si (software interrupt): CPU usage in % for serving software interrupts
+st (time stolen): CPU usage in % for time stolen for this VM by
+the hypervisor
