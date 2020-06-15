@@ -480,3 +480,6 @@ The preceding command creates a file with the numbers 1 to 100 on separate lines
 
 #head numbers.txt
 head -3 numbers.txt   // will show first 3 lines 
+
+#tail numbers.txt      // will display last 10 lines
+tail -5  numbers.txt        // will show last 5 lines 
