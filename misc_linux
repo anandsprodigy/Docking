@@ -483,3 +483,10 @@ head -3 numbers.txt   // will show first 3 lines
 
 #tail numbers.txt      // will display last 10 lines
 tail -5  numbers.txt        // will show last 5 lines 
+
+#extract info from files using cyt command
+
+cut -d$'\t' -f 1 TDT
+
+-d is delimiter tab and -f is fields delimited one
+
