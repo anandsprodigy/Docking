@@ -495,3 +495,6 @@ https://linuxize.com/post/linux-cut-command/
 default delimiter is tab
 
 cut -f 1 simple.txt
+
+#CURL 
+curl -X GET -H "Content-type: application/json" https://jsonplaceholder.typicode.com/users  
