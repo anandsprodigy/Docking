@@ -477,3 +477,6 @@ one can move forward and backward
 seq 100 > numbers.txt
 
 The preceding command creates a file with the numbers 1 to 100 on separate lines.
+
+#head numbers.txt
+head -3 numbers.txt   // will show first 3 lines 
