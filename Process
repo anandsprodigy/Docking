@@ -173,3 +173,5 @@ e.g. at 13:46
 atq
 6       Mon Jun 15 13:44:00 2020 a anand
 
+#remove at jobs
+atrm <job_id>
