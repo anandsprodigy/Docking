@@ -490,3 +490,6 @@ cut -d$'\t' -f 1 TDT
 
 -d is delimiter tab and -f is fields delimited one
 
+https://linuxize.com/post/linux-cut-command/
+
+default delimiter is tab
