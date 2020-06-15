@@ -464,3 +464,7 @@ Section number Subject area
 7 Miscellaneous
 8 System admin
 9 Kernel routines
+
+#less
+for huge text output use less to get output page one at a time
+one can move forward and backward
