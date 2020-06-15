@@ -161,3 +161,11 @@ interrupts
 si (software interrupt): CPU usage in % for serving software interrupts
 st (time stolen): CPU usage in % for time stolen for this VM by
 the hypervisor
+
+
+#running processes at once in future
+at time date 
+
+e.g. at 13:46
+>echo hello > demo.txt
+
