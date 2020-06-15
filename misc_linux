@@ -493,3 +493,5 @@ cut -d$'\t' -f 1 TDT
 https://linuxize.com/post/linux-cut-command/
 
 default delimiter is tab
+
+cut -f 1 simple.txt
