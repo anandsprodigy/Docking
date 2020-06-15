@@ -472,3 +472,8 @@ one can move forward and backward
 #in case of more it is not possible to move backward
 
 #less command is faster because it does not load the entire file at once and allows navigation though file using page up/down keys.
+
+#seq command
+seq 100 > numbers.txt
+
+The preceding command creates a file with the numbers 1 to 100 on separate lines.
