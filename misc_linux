@@ -468,3 +468,5 @@ Section number Subject area
 #less
 for huge text output use less to get output page one at a time
 one can move forward and backward
+
+#in case of more it is not possible to move backward
