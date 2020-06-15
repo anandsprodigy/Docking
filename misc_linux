@@ -470,3 +470,5 @@ for huge text output use less to get output page one at a time
 one can move forward and backward
 
 #in case of more it is not possible to move backward
+
+#less command is faster because it does not load the entire file at once and allows navigation though file using page up/down keys.
