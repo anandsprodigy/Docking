@@ -527,3 +527,7 @@ time ls
 real    0m0.022s
 user    0m0.016s
 sys     0m0.000s
+
+real -refers the total time taken by command/program,
+user – refers the time taken by the program in user mode,
+sys – refers the time taken by the program in kernel mode.
