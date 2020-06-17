@@ -514,3 +514,5 @@ find . -size +500k -size -10M -name '*.tar.gz'
 find . -name '*.tmp' -exec rm {} \;
 # Find all PNG files and convert them to JPG
 find . -name '*.png' -exec convert {} {}.jpg \;
+
+find . -name 'test*.txt' -exec echo remove_{} \;
