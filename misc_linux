@@ -518,3 +518,12 @@ find . -name '*.png' -exec convert {} {}.jpg \;
 find . -name 'test*.txt' -exec echo remove_{} \;
 
 in above command \ is necessary to end exec command arguments.
+
+#time taken by linux command
+time ls
+
+/usr/bin/time -p ls
+
+real    0m0.022s
+user    0m0.016s
+sys     0m0.000s
