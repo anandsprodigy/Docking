@@ -1,0 +1,7 @@
+#renaming files in linux
+mv filename filename_new
+
+#renaming by copy
+cp old_file new_file
+
+rm -rf old_file
