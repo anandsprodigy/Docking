@@ -564,3 +564,11 @@ hits    command
   12    /usr/bin/ls
    5    /usr/bin/cat
    2    /usr/bin/chage
+   
+   #list all command
+compgen -c will list all the commands you could run.
+compgen -a will list all the aliases you could run.
+compgen -b will list all the built-ins you could run.
+compgen -k will list all the keywords you could run.
+compgen -A function will list all the functions you could run.
+compgen -A function -abck will list all the above in one go.
