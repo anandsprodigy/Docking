@@ -516,3 +516,5 @@ find . -name '*.tmp' -exec rm {} \;
 find . -name '*.png' -exec convert {} {}.jpg \;
 
 find . -name 'test*.txt' -exec echo remove_{} \;
+
+in above command \ is necessary to end exec command arguments.
