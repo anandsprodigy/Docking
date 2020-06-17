@@ -531,3 +531,13 @@ sys     0m0.000s
 real -refers the total time taken by command/program,
 user – refers the time taken by the program in user mode,
 sys – refers the time taken by the program in kernel mode.
+
+#display information about command types
+type time
+
+time is a shell keyword
+time is /usr/bin/time
+time is /bin/time
+
+
+
