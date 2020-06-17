@@ -545,3 +545,22 @@ function (shell function)
 builtin (shell builtin)
 file (disk file)
 keyword (shell reserved word)
+
+
+#bash hash command
+ is used to maintain a hash table of recently executed programs. It remembers and shows the program locations. It will give the full pathname of each command name.
+
+hash
+hits    command
+   1    /usr/bin/mv
+  26    /usr/bin/find
+   1    /usr/bin/chmod
+   3    /usr/bin/man
+   1    /usr/sbin/update-motd
+   2    /usr/bin/htop
+   5    /usr/bin/sh
+   1    /usr/bin/touch
+   1    /usr/bin/nano
+  12    /usr/bin/ls
+   5    /usr/bin/cat
+   2    /usr/bin/chage
