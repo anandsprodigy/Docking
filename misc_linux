@@ -540,4 +540,8 @@ time is /usr/bin/time
 time is /bin/time
 
 
-
+alias (shell alias)
+function (shell function)
+builtin (shell builtin)
+file (disk file)
+keyword (shell reserved word)
