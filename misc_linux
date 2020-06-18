@@ -575,3 +575,6 @@ compgen -A function -abck will list all the above in one go.
 
 #running windows subsystem
 >wsl
+
+#update linux
+sudo apt update
