@@ -565,7 +565,7 @@ hits    command
    5    /usr/bin/cat
    2    /usr/bin/chage
    
-   #list all command
+#list all command
 compgen -c will list all the commands you could run.
 compgen -a will list all the aliases you could run.
 compgen -b will list all the built-ins you could run.
