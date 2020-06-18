@@ -4,3 +4,18 @@ Linux Filter commands accept input data from stdin (standard input) and produce 
 
 #https://www.javatpoint.com/linux-filters
 
+
+uniq
+wc
+head 
+tail
+cat
+tac
+wc
+sed
+nl
+sort
+comm
+tr
+tee
+gzip
