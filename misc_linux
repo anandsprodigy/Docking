@@ -581,3 +581,6 @@ sudo apt update
 
 #check upgradable packages
 apt list --upgradable
+
+#uniq lines from file
+uniq simple.txt
