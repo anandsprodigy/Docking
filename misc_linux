@@ -578,3 +578,6 @@ compgen -A function -abck will list all the above in one go.
 
 #update linux
 sudo apt update
+
+#check upgradable packages
+apt list --upgradable
