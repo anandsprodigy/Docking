@@ -1,0 +1,3 @@
+#Linux Filters
+
+Linux Filter commands accept input data from stdin (standard input) and produce output on stdout (standard output). It transforms plain-text data into a meaningful way and can be used with pipes to perform higher operations.
