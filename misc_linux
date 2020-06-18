@@ -584,3 +584,8 @@ apt list --upgradable
 
 #uniq lines from file
 uniq simple.txt
+
+#list last logins
+last
+
+
