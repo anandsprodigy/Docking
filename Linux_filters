@@ -46,4 +46,7 @@ comm -13 file1.txt file2.txt
 
 comm -12 file1.txt file2.txt
 
+#SED
+Linux 'sed' command stands for stream editor. 
+
 
