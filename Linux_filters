@@ -26,3 +26,9 @@ od
 
 comm <file1> <file2>
 
+First column displays non-matching items of first file 'file1.txt'
+
+Second column displays non-matching items of second file 'file2.txt' 
+
+Third column indicates matching items of both the files
+
