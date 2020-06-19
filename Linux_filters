@@ -32,3 +32,18 @@ Second column displays non-matching items of second file 'file2.txt'
 
 Third column indicates matching items of both the files
 
+comm -23 (To display first column)
+
+comm -13 (To display second column)
+
+comm -12 (To display third column)
+
+Example:
+
+comm -23 file1.txt file2.txt
+
+comm -13 file1.txt file2.txt
+
+comm -12 file1.txt file2.txt
+
+
