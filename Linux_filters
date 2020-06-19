@@ -49,4 +49,5 @@ comm -12 file1.txt file2.txt
 #SED
 Linux 'sed' command stands for stream editor. 
 
+It is used to edit streams (files) using regular expressions. But this editing is not permanent. It remains only in display, but in actual, file content remains the same.
 
