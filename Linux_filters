@@ -117,3 +117,6 @@ z (Zap)
 
 #transformation
  sed y/sTeg/REWQ/ c.txt
+ 
+ #modify line
+ sed '3c\This is a modified line.' c.txt
