@@ -51,6 +51,8 @@ Linux 'sed' command stands for stream editor.
 
 It is used to edit streams (files) using regular expressions. But this editing is not permanent. It remains only in display, but in actual, file content remains the same.
 
+sed SCRIPT INPUTFILE...
+
 sed [OPTION]... {script-only-if-no-other-script} [input-file]...  
 
 #on STDIN
