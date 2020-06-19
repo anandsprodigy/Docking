@@ -63,5 +63,11 @@ cat simple.txt | sed s/6//g
 
 Replacing 6 number with nothing
 
+#remove entire line with matching word
+cat c.txt | sed /JTP/d 
+
+here line with JTP will be removed. Also, notice there is no s in s/// (that is may be for substitution only) and d is used for line delete.
+
+
 
 
