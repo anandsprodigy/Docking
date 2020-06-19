@@ -56,4 +56,12 @@ sed [OPTION]... {script-only-if-no-other-script} [input-file]...
 #on STDIN
 echo class7 | sed s/class/JTF/
 
+#global replpacement
+command | sed 's/<oldWord>/<newWord>/g'     
+
+cat simple.txt | sed s/6//g
+
+Replacing 6 number with nothing
+
+
 
