@@ -20,3 +20,9 @@ tr
 tee
 gzip
 od
+
+
+#comparing the files
+
+comm <file1> <file2>
+
