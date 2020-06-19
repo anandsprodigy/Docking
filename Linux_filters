@@ -115,3 +115,5 @@ x (eXchange)
 y (transliterate)
 z (Zap)
 
+#transformation
+ sed y/sTeg/REWQ/ c.txt
