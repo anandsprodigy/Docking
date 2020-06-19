@@ -71,4 +71,12 @@ here line with JTP will be removed. Also, notice there is no s in s/// (that is 
 #add line numbers to file
 sed '=' c.txt
 
+#nl is also adding line numbers
+nl c.txt
+
+nl c.txt
+     1  This is JTP
+     2  Linux is simple
+     3  Linux is good
+
 
