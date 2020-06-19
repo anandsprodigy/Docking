@@ -125,3 +125,5 @@ using regex
 sed '/This is/c Line updated.' c.txt
 
 if line matches "This is" then line will be modifed.
+
+https://www.javatpoint.com/linux-sed#Applying
