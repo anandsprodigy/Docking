@@ -120,3 +120,8 @@ z (Zap)
  
  #modify line
  sed '3c\This is a modified line.' c.txt
+
+using regex
+sed '/This is/c Line updated.' c.txt
+
+if line matches "This is" then line will be modifed.
