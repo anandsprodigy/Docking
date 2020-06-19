@@ -68,6 +68,7 @@ cat c.txt | sed /JTP/d
 
 here line with JTP will be removed. Also, notice there is no s in s/// (that is may be for substitution only) and d is used for line delete.
 
-
+#add line numbers to file
+sed '=' c.txt
 
 
