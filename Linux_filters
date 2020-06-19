@@ -53,4 +53,7 @@ It is used to edit streams (files) using regular expressions. But this editing i
 
 sed [OPTION]... {script-only-if-no-other-script} [input-file]...  
 
+#on STDIN
 echo class7 | sed s/class/JTF/
+
+
