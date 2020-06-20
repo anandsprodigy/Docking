@@ -6,3 +6,7 @@
 #SSH port 22 (TCP)
 
 Telnet and SSH used to connect to other device or PC. However; telnet is not secure.
+
+One of the greatest disadvantages of this protocol is that all data, including usernames and passwords, is sent in clear text, 
+which is a potential security risk. 
+This is the main reason why Telnet is rarely used today and is being replaced by a much secure protocol called SSH. 
