@@ -332,3 +332,7 @@ file locks                      (-x) unlimited
 
 #Get Hard limit values
 cat /etc/security/limits.conf
+
+If any maximum value attained by user process then there will be error like “Too many open files (24)” .
+
+
