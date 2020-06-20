@@ -305,5 +305,11 @@ ulimit provides control over the resources available to the shell and to process
 
 Soft limit – All users can change soft limits, up to max set by the hard limits. Pass the -S option to the ulimit.
 Hard limit – Only root users allowed to change esource hard limits. Pass the -H option to the ulimit.
+
+ulimit -a 
+
+The syntax is as follows to view all soft and hard limits for the current user:
+ulimit -Sa ## Show soft limit ##
+ulimit -Ha ## Show hard limit ##
  
 
