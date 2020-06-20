@@ -335,4 +335,8 @@ cat /etc/security/limits.conf
 
 If any maximum value attained by user process then there will be error like “Too many open files (24)” .
 
+#Check limits for running processes
+cat /proc/1/limits 
+
+cat /proc/<PID>/limits
 
