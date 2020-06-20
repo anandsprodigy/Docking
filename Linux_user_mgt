@@ -297,3 +297,13 @@ Add existing user
  
  passwd -x -1 anand
  
+ 
+#ulimit
+ulimit provides control over the resources available to the shell and to processes started by it, on systems that allow such control.
+ 
+#All Linux limits are categorized as either soft or hard:
+
+Soft limit – All users can change soft limits, up to max set by the hard limits. Pass the -S option to the ulimit.
+Hard limit – Only root users allowed to change esource hard limits. Pass the -H option to the ulimit.
+ 
+
