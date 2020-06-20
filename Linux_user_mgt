@@ -298,7 +298,7 @@ Add existing user
  passwd -x -1 anand
  
  
-#ulimit
+#ulimit (User limits)
 ulimit provides control over the resources available to the shell and to processes started by it, on systems that allow such control.
  
 #All Linux limits are categorized as either soft or hard:
@@ -343,4 +343,5 @@ cat /proc/<PID>/limits
 https://www.cyberciti.biz/faq/how-to-find-ulimit-for-user-on-linux/
 
 https://www.youtube.com/watch?v=5RKVnpxQQtI&list=PLRt-r4QiDOMfnd_ARDNWpZJBYiLJvmeu7&index=5
+
 
