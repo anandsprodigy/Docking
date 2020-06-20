@@ -330,3 +330,5 @@ max user processes              (-u) 7823
 virtual memory          (kbytes, -v) unlimited
 file locks                      (-x) unlimited
 
+#Get Hard limit values
+cat /etc/security/limits.conf
