@@ -340,3 +340,7 @@ cat /proc/1/limits
 
 cat /proc/<PID>/limits
 
+https://www.cyberciti.biz/faq/how-to-find-ulimit-for-user-on-linux/
+
+https://www.youtube.com/watch?v=5RKVnpxQQtI&list=PLRt-r4QiDOMfnd_ARDNWpZJBYiLJvmeu7&index=5
+
