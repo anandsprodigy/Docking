@@ -4,3 +4,5 @@
 
 #telnet port 23 (TCP)
 #SSH port 22 (TCP)
+
+Telnet and SSH used to connect to other device or PC. However; telnet is not secure.
