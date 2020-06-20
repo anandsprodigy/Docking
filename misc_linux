@@ -588,4 +588,8 @@ uniq simple.txt
 #list last logins
 last
 
+#change run level 
+init 1
+
+
 
