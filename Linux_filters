@@ -151,7 +151,11 @@ get uniq lines from the file
 
 uniq <filename>
 
-uniq -c <filename>
+#uniq -c <filename>
 
 provides number of occurances.
+
+#print only duplicate entries
+
+uniq -d <filename>
 
