@@ -151,4 +151,7 @@ get uniq lines from the file
 
 uniq <filename>
 
+uniq -c <filename>
+
+provides number of occurances.
 
