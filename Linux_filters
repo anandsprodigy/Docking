@@ -127,3 +127,20 @@ sed '/This is/c Line updated.' c.txt
 if line matches "This is" then line will be modifed.
 
 https://www.javatpoint.com/linux-sed#Applying
+
+#join
+
+join <file1> <file2>
+
+join will joins lines from 2 files and show it in STDOUT. There should a common element or word/column in order to join. Otherwise will get below error.
+
+join: wine.txt:3: is not sorted:
+
+file1
+1 new delhi
+2 Tokyo
+
+file2
+1 India
+2 Japan
+3 Australia
