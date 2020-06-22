@@ -144,3 +144,11 @@ file2
 1 India
 2 Japan
 3 Australia
+
+#Uniq
+
+get uniq lines from the file
+
+uniq <filename>
+
+
