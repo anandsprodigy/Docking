@@ -399,6 +399,8 @@ https://www.2daygeek.com/sysvinit-vs-systemd-cheatsheet-systemctl-command-usage/
 #scp
 scp ./file_name_local username@ip_OR_hostname:/path/to/folder
 
+scp team-info.tar.gz username@hostname.example.com:/home/username/backups/
+
 it require password of the user. you can perform scp from windows powershell to any available windows distro.
 
 #ssh
