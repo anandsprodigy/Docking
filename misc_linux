@@ -9,6 +9,12 @@ mymachine
 Real host name - fully qualified domain name (FQDN)
 mymachine.idm.company.com
 
+#Get FQDN and domain information
+hostname -f
+hostname -d
+
+PC_NAME.localdomain
+
 #get language locale for the machine
 
 > locale
