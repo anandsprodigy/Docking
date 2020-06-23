@@ -637,4 +637,8 @@ Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cm
 
 sudo lshw
 
+#reverse the text 
+rev
+
+and enter the text, it will be reversed...
 
