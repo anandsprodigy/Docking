@@ -633,5 +633,8 @@ Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cm
                       rdseed adx smap clflushopt intel
                       _pt ibrs ibpb stibp ssbd
                       
+#get system config
+
+sudo lshw
 
 
