@@ -10,3 +10,12 @@ Telnet and SSH used to connect to other device or PC. However; telnet is not sec
 One of the greatest disadvantages of this protocol is that all data, including usernames and passwords, is sent in clear text, 
 which is a potential security risk. 
 This is the main reason why Telnet is rarely used today and is being replaced by a much secure protocol called SSH. 
+
+
+#Networking Firewall
+
+The firewall
+A firewall is a set of rules. When a data packet moves into or out of a protected network space, 
+its contents (in particular, information about its origin, target, and the protocol it plans to use) are tested against the firewall rules
+to see if it should be allowed through.
+
