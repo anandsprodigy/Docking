@@ -42,3 +42,15 @@ apt-get upgrade --> actually installs newer versions of the packages you have. A
 https://www.youtube.com/watch?v=TzT0DoqisTc
 
 https://phoenixnap.com/kb/iptables-tutorial-linux-firewall
+
+#list iptables
+
+root@ubuntu:~# iptables -L -n
+Chain INPUT (policy ACCEPT)
+target     prot opt source               destination         
+
+Chain FORWARD (policy ACCEPT)
+target     prot opt source               destination         
+
+Chain OUTPUT (policy ACCEPT)
+target     prot opt source               destination  
