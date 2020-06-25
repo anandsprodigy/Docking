@@ -54,3 +54,14 @@ target     prot opt source               destination
 
 Chain OUTPUT (policy ACCEPT)
 target     prot opt source               destination  
+
+
+root@ubuntu:~# iptables -L -v
+Chain INPUT (policy ACCEPT 58 packets, 3984 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain FORWARD (policy ACCEPT 0 packets, 0 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain OUTPUT (policy ACCEPT 10 packets, 871 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
