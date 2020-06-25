@@ -33,6 +33,8 @@ iptables -L -n
 
 If it shows error that to update/upgraade kernel then use below commands
 
+https://www.howtogeek.com/177621/the-beginners-guide-to-iptables-the-linux-firewall/
+
 sudo apt-get update --> Only checks for updates
 sudo apt-get upgrade --> install updates
 
