@@ -25,3 +25,5 @@ to see if it should be allowed through.
 
 #Ubuntu includes its own firewall, known as ufw – short for “uncomplicated firewall.”
 Ufw is an easier-to-use frontend for the standard Linux iptables commands.
+
+https://www.hostinger.in/tutorials/iptables-tutorial 
