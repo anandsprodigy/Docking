@@ -40,3 +40,5 @@ apt-get update --> updates the list of available packages and their versions, bu
 apt-get upgrade --> actually installs newer versions of the packages you have. After updating the lists, the package manager knows about available updates for the software you have installed.
 
 https://www.youtube.com/watch?v=TzT0DoqisTc
+
+https://phoenixnap.com/kb/iptables-tutorial-linux-firewall
