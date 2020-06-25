@@ -27,3 +27,11 @@ to see if it should be allowed through.
 Ufw is an easier-to-use frontend for the standard Linux iptables commands.
 
 https://www.hostinger.in/tutorials/iptables-tutorial 
+
+#list tables 
+iptables -L -n
+
+If it shows error that to update/upgraade kernel then use below commands
+
+sudo apt-get update --> Only checks for updates
+sudo apt-get upgrade --> install updates
