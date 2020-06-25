@@ -22,3 +22,6 @@ to see if it should be allowed through.
 #On the one hand, iptables is a tool for managing firewall rules on a Linux machine.
 
 #On the other hand, firewalld is also a tool for managing firewall rules on a Linux machine.
+
+#Ubuntu includes its own firewall, known as ufw – short for “uncomplicated firewall.”
+Ufw is an easier-to-use frontend for the standard Linux iptables commands.
