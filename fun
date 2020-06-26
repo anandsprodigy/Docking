@@ -12,3 +12,9 @@ user@host.domain.com:~/dir:bash:Tue Jun 09[21:08]:
 
 
 https://study.com/academy/course/computer-science-106-introduction-to-linux.html
+
+#SSH/telnet client for IOS and Android phones
+
+Termux: https://termux.com/
+
+Termius: https://apps.apple.com/gr/app/termius-ssh-client/id549039908 
