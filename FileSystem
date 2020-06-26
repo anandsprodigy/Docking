@@ -99,5 +99,8 @@ none on /run type tmpfs (rw,nosuid,noexec,noatime,mode=755)
 
 Some linux group media and devices in /media and /mnt directories
 
+#update partition table
+partprobe /dev/sda
+
 
 
