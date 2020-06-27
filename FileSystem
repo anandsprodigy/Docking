@@ -15,10 +15,23 @@ N denotes partiotion 1-4 (Primary) >5 (logical)
 
 FIle system/Partition config files
 
->cat /etc/fstab
-LABEL=cloudimg-rootfs   /        ext4   defaults        0 0
+#fstab - static information about the filesystems
 
-list devices
+/etc/fstab is file contains all available disks, partitions and mounts.
+Each line contains six fields as follows
+
+1) Device
+2) Mount point/path
+3) File System
+4) Options --> default option is defaults.
+5) Backup option [0 or 1](if value == 1; then dump utility will take backup)
+6) File system check order --> 0 means fsdisk will not check file system. Higher number will be order for checking file system.
+
+Sample Line from /etc/fstab
+/dev/sda1	/mnt/demo	ext4	acl,users_xattr	0	0
+
+
+#list devices
 ls /dev
 
 
