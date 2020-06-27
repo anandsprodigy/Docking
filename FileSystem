@@ -428,3 +428,8 @@ sudo mkfs.ext4 /dev/VGroup/data
 You will get LV path from lvdisplay command
 
 
+####### mount lv ########
+
+sudo mount /dev/VGroup/data /media/anand/
+
+
