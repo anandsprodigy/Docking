@@ -307,3 +307,8 @@ sudo mount /dev/sda3 /media/anand
 
 sudo umount /media/anand
 
+
+### Default/parmanent partitions from /etc/fstab will be mounted as follows #####
+
+mount -a
+
