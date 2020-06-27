@@ -340,6 +340,10 @@ Partitions --> PV --> VG --> LV --> File System
 #create physical volume from partitions
 pvcreate /dev/sdb
 
+sudo pvcreate /dev/sda3
 
+WARNING: ext4 signature detected on /dev/sda3 at offset 1080. Wipe it? [y/n]: y
+  Wiping ext4 signature on /dev/sda3.
+  Physical volume "/dev/sda3" successfully created.
 
 
