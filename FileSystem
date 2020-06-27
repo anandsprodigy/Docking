@@ -312,3 +312,7 @@ sudo umount /media/anand
 
 mount -a
 
+Mount a filesystem.
+
+Options:
+ -a, --all               mount all filesystems mentioned in fstab
