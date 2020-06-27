@@ -420,3 +420,11 @@ sudo lvdisplay
   - currently set to     256
   Block device           253:0
 
+
+###### create file system ########
+
+sudo mkfs.ext4 /dev/VGroup/data
+
+You will get LV path from lvdisplay command
+
+
