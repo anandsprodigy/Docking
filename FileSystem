@@ -498,3 +498,24 @@ for chnaging file system in fdisk type t option
 #### list file system with out temp file system
  df -h -x tmpfs
 
+#### tmpFs
+
+tmpfs - a virtual memory filesystem
+       
+DESCRIPTION:
+
+The tmpfs facility allows the creation of filesystems whose contents reside in virtual memory.Since the files on such filesystems
+typically reside in RAM, file access is extremely fast.
+
+The filesystem is automatically created when mounting a filesystem
+with the type tmpfs via a command such as the following:
+
+$ sudo mount -t tmpfs -o size=10M tmpfs /mnt/mytmpfs
+
+A tmpfs filesystem has the following properties:
+
+*  The filesystem can employ swap space when physical memory pressure demands it.
+
+*  The filesystem consumes only as much physical memory and swap space as is required to store the current contents of the filesystem.
+
+*  During a remount operation (mount -o remount), the filesystem size can be changed (without losing the existing contents of the filesystem).
