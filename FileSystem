@@ -368,4 +368,29 @@ sudo pvdisplay /dev/sda3
 sudo vgcreate VGroup /dev/sda3
 sudo vgcreate <volume_group_name> <PV_name> <PV_name2>
 
+###### display VG #######
+
+
+anand@ubuntu:~$ sudo vgdisplay
+  --- Volume group ---
+  VG Name               VGroup
+  System ID             
+  Format                lvm2
+  Metadata Areas        1
+  Metadata Sequence No  1
+  VG Access             read/write
+  VG Status             resizable
+  MAX LV                0
+  Cur LV                0
+  Open LV               0
+  Max PV                0
+  Cur PV                1
+  Act PV                1
+  VG Size               <2.00 GiB
+  PE Size               4.00 MiB
+  Total PE              511
+  Alloc PE / Size       0 / 0   
+  Free  PE / Size       511 / <2.00 GiB
+  VG UUID               gidLBm-d0eG-jXfb-RS5R-0E0l-kMCH-mtIB9d
+
 
