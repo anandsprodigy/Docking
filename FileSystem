@@ -317,6 +317,7 @@ Mount a filesystem.
 Options:
  -a, --all               mount all filesystems mentioned in fstab
  
+ #Tutorials on new LVM system in linux
  #http://blog.frands.net/linux-lvm-how-to-182/
  
  #logical volumes groups managment is not installed by default
