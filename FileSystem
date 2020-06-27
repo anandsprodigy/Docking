@@ -350,3 +350,16 @@ WARNING: ext4 signature detected on /dev/sda3 at offset 1080. Wipe it? [y/n]: y
 sudo pvdisplay /dev/sda3
 
 
+[root@tutsrv01 ~]# pvdisplay
+  --- Physical volume ---
+  PV Name               /dev/sda2
+  VG Name               osvg
+  PV Size               14.15 GiB / not usable 0
+  Allocatable           yes
+  PE Size               4.00 MiB
+  Total PE              3622
+  Free PE               1122
+  Allocated PE          2500
+  PV UUID               msF4tW-JcB1-obDQ-WjPI-2oPl-H8wi-ybEhzj
+
+
