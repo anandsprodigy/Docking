@@ -448,3 +448,6 @@ sudo vgs
   VG     #PV #LV #SN Attr   VSize  VFree   
   VGroup   1   1   0 wz--n- <2.00g 1020.00m
 
+### extend logical volumes
+sudo lvextend -L +200M /dev/VGroup/data
+sudo lvextend -L +1G <lv_path>
