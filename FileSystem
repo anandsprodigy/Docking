@@ -193,3 +193,15 @@ sr0     11:0    1  1024M  0 rom
 #steps to create partitions
 
 fdisk --> create partition --> format partition using mkfs --> mount file system
+
+#create partition
+
+sudo fdisk /dev/sda
+
+m --> information
+
+F --> list free unpartitioned space
+
+p --> print partition table
+
+
