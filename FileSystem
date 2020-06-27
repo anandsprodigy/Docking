@@ -280,3 +280,18 @@ Partition number (1-3,5, default 5): 3
 
 
 
+######### Delete Partition #########
+
+Command (m for help): d
+Partition number (1-3,5, default 5): 3
+
+Partition 3 has been deleted.
+
+######### Write Partition Table to Disk #########
+
+Command (m for help): w
+
+The partition table has been altered.
+Syncing disks.
+ 
+
