@@ -440,3 +440,11 @@ OR you can add mounting (if parmanent in /etc/fstab).
 Important commands
 
 pvcreate --> pvdisplay --> vgcreate --> vgdisplay --> lvcreate --> lvdisplpay
+
+
+##volume group information
+sudo vgs
+[sudo] password for anand: 
+  VG     #PV #LV #SN Attr   VSize  VFree   
+  VGroup   1   1   0 wz--n- <2.00g 1020.00m
+
