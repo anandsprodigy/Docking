@@ -141,6 +141,12 @@ Writing inode tables: done
 Creating journal (16384 blocks): done
 Writing superblocks and filesystem accounting information: done 
 
+#list available file systems to create
+
+mkfs {TAB} {TAB}
+mkfs         mkfs.ext2    mkfs.fat     mkfs.ntfs    
+mkfs.bfs     mkfs.ext3    mkfs.minix   mkfs.vfat    
+mkfs.cramfs  mkfs.ext4    mkfs.msdos 
 
 
 
