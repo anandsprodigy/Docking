@@ -363,3 +363,9 @@ sudo pvdisplay /dev/sda3
   PV UUID               msF4tW-JcB1-obDQ-WjPI-2oPl-H8wi-ybEhzj
 
 
+###### Volume group creation #######
+
+sudo vgcreate VGroup /dev/sda3
+sudo vgcreate <volume_group_name> <PV_name> <PV_name2>
+
+
