@@ -394,3 +394,10 @@ anand@ubuntu:~$ sudo vgdisplay
   VG UUID               gidLBm-d0eG-jXfb-RS5R-0E0l-kMCH-mtIB9d
 
 
+######## Create logical volume #######
+
+sudo lvcreate -n data -L 1G VGroup
+sudo lvcreate -n <lv_name> -L 1G <VG_name>
+
+
+
