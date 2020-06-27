@@ -262,4 +262,21 @@ Device     Boot    Start      End  Sectors  Size Id Type
 /dev/sda5        1052672 41940991 40888320 19.5G 83 Linux
 
 
+######### Information about Partition #########
+
+Command (m for help): i
+Partition number (1-3,5, default 5): 3
+
+         Device: /dev/sda3
+          Start: 41940992
+            End: 45846527
+        Sectors: 3905536
+      Cylinders: 7658
+           Size: 1.9G
+             Id: 83
+           Type: Linux
+    Start-C/H/S: 317/61/1
+      End-C/H/S: 807/38/2
+
+
 
