@@ -321,7 +321,9 @@ Options:
  
  #logical volumes groups managment is not installed by default
  
- sudo apt install lvm
+ sudo apt install lvm2
+ 
+ #notice program name is lvm2. It is not installed by default.
  
  
 Physical Volumes (PV): These are disks. There is a single LVM partition on each disk. LVM will automatically create this! These can also be RAID devices. If you run a software raid, you can simply add /dev/mdX devices. Or if you use SAN you can add the devices presented to your OS. Basically, any raw device will do.
