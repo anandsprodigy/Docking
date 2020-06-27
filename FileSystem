@@ -432,4 +432,4 @@ You will get LV path from lvdisplay command
 
 sudo mount /dev/VGroup/data /media/anand/
 
-
+OR you can add mounting (if parmanent in /etc/fstab).
