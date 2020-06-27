@@ -171,7 +171,8 @@ mkfs.cramfs  mkfs.ext4    mkfs.msdos
 
 #lsblk --> list block devices
 
-anand@ubuntu:~$ lsblk
+>lsblk
+
 NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
 loop0    7:0    0    55M  1 loop /snap/core18/1705
 loop1    7:1    0    55M  1 loop /snap/core18/1754
@@ -189,4 +190,6 @@ sda      8:0    0    26G  0 disk
 └─sda5   8:5    0  19.5G  0 part /
 sr0     11:0    1  1024M  0 rom  
 
+#steps to create partitions
 
+fdisk --> create partition --> format partition using mkfs --> mount file system
