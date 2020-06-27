@@ -102,5 +102,15 @@ Some linux group media and devices in /media and /mnt directories
 #update partition table
 partprobe /dev/sda
 
+######### Mounting Drive Partition #########
+
+sudo mount /dev/sda3 /media/anand
+
+
+######### Unmount Drive Partition #########
+
+sudo umount /media/anand
+
+
 
 
