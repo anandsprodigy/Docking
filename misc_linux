@@ -647,3 +647,10 @@ yes i love linux
 
 it will give you i love linux prompt endlessly. Press CRTL + C to end.
 
+#change runlevel
+init is the program responsible for altering the run level which can be called using telinit command.
+
+telinit <runlevel>
+
+sudo telinit 4
+
