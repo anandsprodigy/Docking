@@ -346,4 +346,7 @@ WARNING: ext4 signature detected on /dev/sda3 at offset 1080. Wipe it? [y/n]: y
   Wiping ext4 signature on /dev/sda3.
   Physical volume "/dev/sda3" successfully created.
 
+#display Physical volume information
+sudo pvdisplay /dev/sda3
+
 
