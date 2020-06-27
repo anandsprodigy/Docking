@@ -322,3 +322,12 @@ Options:
  #logical volumes groups managment is not installed by default
  
  sudo apt install lvm
+ 
+ 
+Physical Volumes (PV): These are disks. There is a single LVM partition on each disk. LVM will automatically create this! These can also be RAID devices. If you run a software raid, you can simply add /dev/mdX devices. Or if you use SAN you can add the devices presented to your OS. Basically, any raw device will do.
+
+Volume Groups (VG): The volume group are groups of physical volumes. The total size of the volume group equals the total size of all disks added to the group.
+
+Logical Volumes (LV): These are slices of the volume group. I can decide the size of these exactly as I like and it does not matter if I  exceed the size of a single hard disk – LVM will take care of that. The operating system will through the device mapper see the logical volumes so you can add your filesystem of choice.
+
+File Systems: The name is pretty much self explanatory. You can choose your favorite file system, e.g. ext4 and then just make the filesystem.
