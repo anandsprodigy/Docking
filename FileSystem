@@ -111,6 +111,16 @@ sudo mount /dev/sda3 /media/anand
 
 sudo umount /media/anand
 
+#get disks
+sudo fdisk -l | grep '/dev/sda*'
+Disk /dev/sda: 26 GiB, 27917287424 bytes, 54525952 sectors
+/dev/sda1  *        2048  1050623  1048576  512M  b W95 FAT32
+/dev/sda2        1052670 41940991 40888322 19.5G  5 Extended
+/dev/sda3       41940992 46135295  4194304    2G 83 Linux
+/dev/sda5        1052672 41940991 40888320 19.5G 83 Linux
+
+
+
 
 
 
