@@ -205,6 +205,8 @@ F --> list free unpartitioned space
 p --> print partition table
 
 
+####### Print Partitions ############
+
 Command (m for help): p
 Disk /dev/sda: 26 GiB, 27917287424 bytes, 54525952 sectors
 Disk model: VMware Virtual S
@@ -218,4 +220,24 @@ Device     Boot   Start      End  Sectors  Size Id Type
 /dev/sda1  *       2048  1050623  1048576  512M  b W95 FAT32
 /dev/sda2       1052670 41940991 40888322 19.5G  5 Extended
 /dev/sda5       1052672 41940991 40888320 19.5G 83 Linux
+
+
+######### Create Partition #########
+
+
+Command (m for help): n
+Partition type
+   p   primary (1 primary, 1 extended, 2 free)
+   l   logical (numbered from 5)
+Select (default p): 
+
+Using default response p.
+Partition number (3,4, default 3): 6
+Value out of range.
+Partition number (3,4, default 3): 3
+First sector (41940992-54525951, default 41940992): 
+Last sector, +/-sectors or +/-size{K,M,G,T,P} (41940992-54525951, default 54525951): +2GB 
+
+Created a new partition 3 of type 'Linux' and of size 1.9 GiB.
+
 
