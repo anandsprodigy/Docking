@@ -31,6 +31,11 @@ Sample Line from /etc/fstab
 /dev/sda1	/mnt/demo	ext4	acl,users_xattr	0	0
 
 
+#get UUID for the block device e.g. HDD
+blkid /dev/sda3
+/dev/sda3: LABEL="2G" UUID="f80b1161-c490-4bc8-990b-30a47609e91f" TYPE="ext4" PARTUUID="0d65f401-03"
+
+
 #list devices
 ls /dev
 
