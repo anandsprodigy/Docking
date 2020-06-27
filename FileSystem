@@ -451,3 +451,15 @@ sudo vgs
 ### extend logical volumes
 sudo lvextend -L +200M /dev/VGroup/data
 sudo lvextend -L +1G <lv_path>
+
+##### reduce logocal volumes
+sudo lvreduce -L 200M /dev/VGroup/data
+sudo lvreduce -L 2G <lv_path>
+
+sudo lvreduce -L 200M /dev/VGroup/data
+  WARNING: Reducing active and open logical volume to 200.00 MiB.
+  THIS MAY DESTROY YOUR DATA (filesystem etc.)
+Do you really want to reduce VGroup/data? [y/n]: y
+  Size of logical volume VGroup/data changed from <1.20 GiB (306 extents) to 200.00 MiB (50 extents).
+  Logical volume VGroup/data successfully resized.
+
