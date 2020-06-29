@@ -39,3 +39,12 @@ echo $RESULT
 ⥤ 2
 
 
+#As we can see in the above example, if we do not want to store or print the result, we can drop $ and use ((expression)) syntax to perform and arithmetic operation.
+
+NUM=5
+(( NUM += NUM )) # 5 + 5 => 10
+(( NUM++ )) # 6++ => 11
+(( NUM = $NUM - 3)) # 11 - 3 => 8
+echo $NUM
+⥤ 8
+
