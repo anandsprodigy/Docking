@@ -1,0 +1,24 @@
+#!/bin/bash
+
+#Author Anand Kulkarni
+#Purpose Usage of switch cases
+
+read name
+
+
+while :
+do
+        case $name in
+        Anand)
+                echo "Anand";
+                break;;
+        Rahul)
+                echo "Rahul";
+                break;;
+        Vishal)
+                echo "Vishal";
+                break;;
+        esac
+done
+echo
+echo "End";
