@@ -21,3 +21,13 @@ OR
 let RESULT="1 + 1"
 echo $RESULT
 ⥤ 2
+
+
+#We can also use expr command to execute an expression which takes multiple arguments ( it concatenates them and executes it ). 
+It does not have a problem like let to declare a variable but it will print the result by default, hence we need to use $(expression) syntax.
+
+expr 1 + 1   # prints to the STDOUT
+RESULT=$(expr 3 \* 3)
+echo $RESULT
+⥤ 2
+⥤ 9
