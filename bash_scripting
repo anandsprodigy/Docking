@@ -9,3 +9,15 @@ echo $message;
 echo "$message"
 
 here in above case $message without quotes will show all files in current directory. When wild crard used in quotes, it will be taken as literal.
+
+#using let command, We can perform arithmetic operations in Bash even though Bash does not support number data type. 
+
+let RESULT=1+1
+echo $RESULT
+⥤ 2
+
+OR 
+
+let RESULT="1 + 1"
+echo $RESULT
+⥤ 2
