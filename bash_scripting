@@ -1,3 +1,11 @@
 #Bash does not have a type system, it can only save string values. Hence internally, Bash saves them as a string.
 
 #In bash, * is a special character that represents a wildcard. When passed as an argument to a command, * contains all the files in the current directory as a list. 
+
+#Bash script example
+
+message="hello wold *";
+echo $message;
+echo "$message"
+
+here in above case $message without quotes will show all files in current directory. When wild crard used in quotes, it will be taken as literal.
