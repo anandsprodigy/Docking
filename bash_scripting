@@ -49,3 +49,5 @@ echo $NUM
 ⥤ 8
 
 #To generate a 16-bit random number, Bash provides a RANDOM global variable that prints a random number between 0 to 32767 every time we access it.
+
+#https://itnext.io/bash-scripting-everything-you-need-to-know-about-bash-shell-programming-cd08595f2fba
