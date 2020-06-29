@@ -34,4 +34,8 @@ echo $RESULT
 
 Using $((expression)) syntax, we can also perform arithmetic operations.
 
+RESULT=$((1 + 1))
+echo $RESULT
+⥤ 2
+
 
