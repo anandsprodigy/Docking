@@ -1,0 +1,24 @@
+#!/bin/bash
+
+#Author Anand Kulkarni
+#Purpose For loop usage
+
+
+for i in 1 2 3 4 5
+do
+        echo "Getting $i";
+done
+
+#################################
+
+for i in hello 1 * 2 goodbye
+do
+        echo "Looping ... i is set to $i"
+done
+
+#################################
+
+for i in Anand Laxman Hero
+do
+        echo "$i";
+done
