@@ -657,3 +657,7 @@ sudo telinit 4
 #vim diff files
 vimdiff <file1> <file2>
 https://devhints.io/vim-diff
+
+
+#Vim cheatsheet
+https://vim.rtorr.com/ 
