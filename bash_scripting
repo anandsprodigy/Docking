@@ -31,3 +31,7 @@ RESULT=$(expr 3 \* 3)
 echo $RESULT
 ⥤ 2
 ⥤ 9
+
+Using $((expression)) syntax, we can also perform arithmetic operations.
+
+
