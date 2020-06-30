@@ -71,3 +71,7 @@ Chain OUTPUT (policy ACCEPT 10 packets, 871 bytes)
 
 #nmap scanning ports and host
 nmap scanme.nmap.org
+
+nmap 192.168.0.*
+
+
