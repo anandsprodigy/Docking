@@ -67,3 +67,7 @@ Chain FORWARD (policy ACCEPT 0 packets, 0 bytes)
 
 Chain OUTPUT (policy ACCEPT 10 packets, 871 bytes)
  pkts bytes target     prot opt in     out     source               destination         
+
+
+#nmap scanning ports and host
+nmap scanme.nmap.org
