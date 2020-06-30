@@ -96,3 +96,17 @@ nmap -p 1-1000 192.168.0.1   #port 1-1000 scan
 
 nmap -sV 192.168.0.1   #get service version
 
+##nslookup
+nslookup command queries the DNS in order to fetch the IP address or the domain name from DNS records.
+
+>nslookup developer.facebook.com
+Server:		XX.0.0.XX
+Address:	XX.0.0.XX#53
+
+Non-authoritative answer:
+developer.facebook.com	canonical name = star.facebook.com.
+star.facebook.com	canonical name = star.c10r.facebook.com.
+Name:	star.c10r.facebook.com
+Address: XX.XX.XX.XX
+Name:	XX.XX.facebook.com
+Address: XX:XX:XX:f:XX:XX:XX:XX
