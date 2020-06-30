@@ -74,7 +74,10 @@ nmap scanme.nmap.org
 
 nmap 192.168.0.*
 
-nmap -p 80 192.168.0.1
+nmap -p 80 192.168.0.1   #port 80 scan
 
-nmap -p 80,53 192.168.0.1
+nmap -p 80,53 192.168.0.1   #port 80 and 53 scan
+
+nmap -p 1-1000 192.168.0.1   #port 1-1000 scan
+
 
