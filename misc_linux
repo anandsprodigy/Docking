@@ -664,3 +664,6 @@ https://vim.rtorr.com/
 
 #devHint
 https://devhints.io/
+
+#command separator is ;
+whoami; date
