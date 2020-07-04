@@ -8,3 +8,12 @@ rm -rf old_file
 
 #java decompiler
 http://www.javadecompilers.com/result
+
+Below are the decompilers for Java, APK etc.
+
+ Procyon - fast and and well-supported decompiler for modern Java
+ CFR - very good and well-supported decompiler for modern Java
+ JDCore (very fast)
+ Jadx, fast and with Android support
+ Fernflower
+ JAD (very fast, but outdated)
