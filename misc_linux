@@ -667,3 +667,6 @@ https://devhints.io/
 
 #command separator is ;
 whoami; date
+
+#command grouping 
+(w;date;ls) > log.txt
