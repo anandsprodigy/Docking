@@ -110,3 +110,6 @@ Name:	star.c10r.facebook.com
 Address: XX.XX.XX.XX
 Name:	XX.XX.facebook.com
 Address: XX:XX:XX:f:XX:XX:XX:XX
+
+#Network Manager
+nmcli
