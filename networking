@@ -126,5 +126,12 @@ Class D	224.0.0.0 to 239.255.255.255
 
 #Number of hosts in network = 2 ^ host bits - 2
 
+
+Class A addresses only include IP starting from 1.x.x.x to 126.x.x.x only. The IP range 127.x.x.x is reserved for loopback IP addresses.
+
+The default subnet mask for Class A IP address is 255.0.0.0 which implies that Class A addressing can have 126 networks (27-2) and 16777214 hosts (224-2).
+
+Class A IP address format is thus: 0NNNNNNN.HHHHHHHH.HHHHHHHH.HHHHHHHH
+
 Ipv4 --> 32 bit
 IPv6 --> 128 bit
