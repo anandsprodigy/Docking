@@ -519,3 +519,12 @@ A tmpfs filesystem has the following properties:
 *  The filesystem consumes only as much physical memory and swap space as is required to store the current contents of the filesystem.
 
 *  During a remount operation (mount -o remount), the filesystem size can be changed (without losing the existing contents of the filesystem).####
+
+
+
+###################  Swap ########################
+ anand@ubuntu:~$ swapon
+NAME      TYPE   SIZE USED PRIO
+/swapfile file 923.3M   0B   -2
+
+############################################
