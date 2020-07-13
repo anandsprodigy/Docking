@@ -542,3 +542,11 @@ fdisk --> m --> F
 Type the following command to list partitions of each device:
 # fdisk -l
 # fdisk -l /dev/sda
+
+
+#check swap size
+
+free -h
+              total        used        free      shared  buff/cache   available
+Mem:           488M         36M        104M        652K        348M        426M
+Swap:            0B          0B          0B
