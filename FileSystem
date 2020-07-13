@@ -550,3 +550,10 @@ free -h
               total        used        free      shared  buff/cache   available
 Mem:           488M         36M        104M        652K        348M        426M
 Swap:            0B          0B          0B
+
+#check existing swap from the system
+
+sudo swapon --show
+NAME      TYPE   SIZE USED PRIO
+/swapfile file 923.3M   0B   -2
+
