@@ -562,3 +562,6 @@ NAME      TYPE   SIZE USED PRIO
 cat /proc/sys/vm/swappiness
 
 For a Desktop, a swappiness setting of 60 is not a bad value. For a server, you might want to move it closer to 0.
+
+#Set swap values
+sudo sysctl vm.swappiness=50
