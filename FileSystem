@@ -533,3 +533,8 @@ https://www.youtube.com/watch?v=0mgefj9ibRE
 
 
 https://averagelinuxuser.com/linux-swap/
+
+
+
+#check free partition space
+fdisk --> m --> F
