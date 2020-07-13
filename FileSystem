@@ -538,3 +538,7 @@ https://averagelinuxuser.com/linux-swap/
 
 #check free partition space
 fdisk --> m --> F
+
+Type the following command to list partitions of each device:
+# fdisk -l
+# fdisk -l /dev/sda
