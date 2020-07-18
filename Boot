@@ -77,4 +77,4 @@ Note that the exact location of these directories varies from distribution to di
 
 If you look in the different run level directories, you'll find programs that start with either an "S" or "K" for startup and kill, respectively. Startup programs are executed during system startup, and kill programs during shutdown.
 
-That's everything you need to know about the Linux booting process. Now go out there and make Tux proud.
+That's everything you need to know about the Linux booting process. Now go out there and make Tux proud..
